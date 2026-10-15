@@ -1,0 +1,386 @@
+[
+  {
+    "source_id": "record_000375",
+    "source_filename": "__init__.py",
+    "path": "code/favr/qwen35/aqcc_final/__init__.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_006494",
+    "source_filename": "acquisition.py",
+    "path": "code/favr/qwen35/aqcc_final/acquisition.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_006027",
+    "source_filename": "data.py",
+    "path": "code/favr/qwen35/aqcc_final/data.py",
+    "change": "Ordinary Python comments removed; optional embedding-integrity metadata may be omitted in this release. Report order, vector shape, finite values, and partition membership remain validated. Internal runtime integrity calculations are unchanged.",
+    "ast_equal": false
+  },
+  {
+    "source_id": "record_005229",
+    "source_filename": "decoder.py",
+    "path": "code/favr/qwen35/aqcc_final/decoder.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007047",
+    "source_filename": "evidence.py",
+    "path": "code/favr/qwen35/aqcc_final/evidence.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_008747",
+    "source_filename": "features.py",
+    "path": "code/favr/qwen35/aqcc_final/features.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_008252",
+    "source_filename": "initialization.py",
+    "path": "code/favr/qwen35/aqcc_final/initialization.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_000203",
+    "source_filename": "metrics.py",
+    "path": "code/favr/qwen35/aqcc_final/metrics.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007918",
+    "source_filename": "probing.py",
+    "path": "code/favr/qwen35/aqcc_final/probing.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_004044",
+    "source_filename": "provider.py",
+    "path": "code/favr/qwen35/aqcc_final/provider.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_002638",
+    "source_filename": "runner.py",
+    "path": "code/favr/qwen35/aqcc_final/runner.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_000966",
+    "source_filename": "selector.py",
+    "path": "code/favr/qwen35/aqcc_final/selector.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_009157",
+    "source_filename": "shared_oracle.py",
+    "path": "code/favr/qwen35/aqcc_final/shared_oracle.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_005043",
+    "source_filename": "silra_transport_v2.py",
+    "path": "code/favr/qwen35/aqcc_final/silra_transport_v2.py",
+    "change": "Ordinary Python comments removed; supported backend names standardized to Qwen3.5 and DeepSeek-v4. Request transport behavior is unchanged.",
+    "ast_equal": false
+  },
+  {
+    "source_id": "record_007121",
+    "source_filename": "study_controls.py",
+    "path": "code/favr/qwen35/aqcc_final/study_controls.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007766",
+    "source_filename": "surrogate.py",
+    "path": "code/favr/qwen35/aqcc_final/surrogate.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_008280",
+    "source_filename": "tracing.py",
+    "path": "code/favr/qwen35/aqcc_final/tracing.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007404",
+    "source_filename": "warmup.py",
+    "path": "code/favr/qwen35/aqcc_final/warmup.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_001165",
+    "source_filename": "prepare_tfidf_hc.py",
+    "path": "code/favr/qwen35/prepare_tfidf_hc.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_000375",
+    "source_filename": "__init__.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/__init__.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_006494",
+    "source_filename": "acquisition.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/acquisition.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_006027",
+    "source_filename": "data.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/data.py",
+    "change": "Ordinary Python comments removed; optional embedding-integrity metadata may be omitted in this release. Report order, vector shape, finite values, and partition membership remain validated. Internal runtime integrity calculations are unchanged.",
+    "ast_equal": false
+  },
+  {
+    "source_id": "record_005229",
+    "source_filename": "decoder.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/decoder.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007047",
+    "source_filename": "evidence.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/evidence.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_008747",
+    "source_filename": "features.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/features.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_008252",
+    "source_filename": "initialization.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/initialization.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_000203",
+    "source_filename": "metrics.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/metrics.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007918",
+    "source_filename": "probing.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/probing.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_006411",
+    "source_filename": "provider.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/provider.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_002638",
+    "source_filename": "runner.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/runner.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_000966",
+    "source_filename": "selector.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/selector.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_009157",
+    "source_filename": "shared_oracle.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/shared_oracle.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_008229",
+    "source_filename": "silra_transport_v2.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/silra_transport_v2.py",
+    "change": "Ordinary Python comments removed; supported backend names standardized to Qwen3.5 and DeepSeek-v4. Request transport behavior is unchanged.",
+    "ast_equal": false
+  },
+  {
+    "source_id": "record_007121",
+    "source_filename": "study_controls.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/study_controls.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007766",
+    "source_filename": "surrogate.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/surrogate.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_008280",
+    "source_filename": "tracing.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/tracing.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_007404",
+    "source_filename": "warmup.py",
+    "path": "code/favr/deepseek_v4_flash/aqcc_final/warmup.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_001165",
+    "source_filename": "prepare_tfidf_hc.py",
+    "path": "code/favr/deepseek_v4_flash/prepare_tfidf_hc.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_003496",
+    "source_filename": "tune_baselines.py",
+    "extracted_functions": [
+      "score",
+      "stable_partition",
+      "coassociation",
+      "tree_from_similarity",
+      "tokenize_words",
+      "token_sets",
+      "jaccard_similarity",
+      "tfidf_similarities",
+      "iter_tree_partitions",
+      "evaluate_family"
+    ],
+    "path": "code/baselines/baseline_lib.py",
+    "change": "verbatim selected functions with ordinary comments removed; functions AST identical"
+  },
+  {
+    "source_id": "record_008489",
+    "source_filename": "reproduce.py",
+    "extracted_functions": [
+      "load_stopwords",
+      "normalize_text",
+      "useful_token",
+      "ctras_tokens"
+    ],
+    "path": "code/baselines/baseline_lib.py",
+    "change": "verbatim selected functions with ordinary comments removed; functions AST identical"
+  },
+  {
+    "source_id": "record_003471",
+    "source_filename": "advanced_traditional_tune.py",
+    "extracted_functions": [
+      "normalized_chars",
+      "feature_matrices"
+    ],
+    "path": "code/baselines/baseline_lib.py",
+    "change": "verbatim selected functions with ordinary comments removed; functions AST identical"
+  },
+  {
+    "source_id": "record_001218",
+    "source_filename": "terfur_semantic_seeded.py",
+    "extracted_functions": [
+      "reconstruct_partition",
+      "fuzzy_harden"
+    ],
+    "path": "code/baselines/baseline_lib.py",
+    "change": "verbatim selected functions with ordinary comments removed; functions AST identical"
+  },
+  {
+    "source_id": "record_006445",
+    "source_filename": "__init__.py",
+    "path": "code/a3s/a3s_adapter/__init__.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_002013",
+    "source_filename": "artifacts.py",
+    "path": "code/a3s/a3s_adapter/artifacts.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_009521",
+    "source_filename": "calibration.py",
+    "path": "code/a3s/a3s_adapter/calibration.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_004067",
+    "source_filename": "core.py",
+    "path": "code/a3s/a3s_adapter/core.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_002631",
+    "source_filename": "layered_oracle.py",
+    "path": "code/a3s/a3s_adapter/layered_oracle.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_009251",
+    "source_filename": "native_bridge.py",
+    "path": "code/llmcluster/native_bridge.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  },
+  {
+    "source_id": "record_005814",
+    "source_filename": "common.py",
+    "extracted_functions": [
+      "save",
+      "require"
+    ],
+    "path": "code/llmcluster/common.py",
+    "change": "verbatim selected functions with ordinary comments removed; functions AST identical"
+  },
+  {
+    "source_id": "record_003102",
+    "source_filename": "main.py",
+    "extracted_functions": [
+      "ClusterManager"
+    ],
+    "path": "code/llmcluster/upstream/main.py",
+    "change": "verbatim selected functions with ordinary comments removed; functions AST identical"
+  },
+  {
+    "source_id": "record_002744",
+    "source_filename": "prompt.py",
+    "path": "code/llmcluster/upstream/prompt.py",
+    "change": "ordinary Python comments removed; AST identical; docstrings retained",
+    "ast_equal": true
+  }
+]

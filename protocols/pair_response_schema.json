@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "label",
+    "reason"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "label": {
+      "enum": [
+        "SAME",
+        "DIFFERENT"
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 800,
+      "pattern": "\\S"
+    }
+  }
+}

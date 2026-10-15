@@ -1,0 +1,33 @@
+\begin{table}[!htbp]
+\centering
+\caption{Paired quality gains over selection controls.}
+\label{tab:rq2-control}
+\begin{minipage}{\linewidth}
+\centering
+\begingroup
+\fontsize{8.5}{9.6}\selectfont
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.0}
+\setlength{\heavyrulewidth}{0.7pt}
+\setlength{\lightrulewidth}{0.35pt}
+\setlength{\aboverulesep}{1.4pt}
+\setlength{\belowrulesep}{1.8pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrc@{\hspace{9pt}}rcc@{}}
+\toprule
+ & \multicolumn{2}{c}{$\Delta$ARI} & \multicolumn{2}{c}{$\Delta B^3$-F1} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\textbf{Control} & Mean & 95\% CI & Mean & 95\% CI & \textbf{Opp.} \\
+\midrule
+CONST & \textbf{+0.0700} & [+0.0582, +0.0825] & \textbf{+0.0295} & [+0.0272, +0.0318] & 0 \\
+TEXT & \textbf{+0.0507} & [+0.0408, +0.0609] & \textbf{+0.0296} & [+0.0268, +0.0324] & 1 \\
+RANDOM & \textbf{+0.2798} & [+0.2684, +0.2919] & \textbf{+0.0798} & [+0.0779, +0.0817] & 0 \\
+\addlinespace[2pt]
+FROZEN\_LR & \textbf{+0.0649} & [+0.0552, +0.0751] & \textbf{+0.0265} & [+0.0246, +0.0285] & 1 \\
+FROZEN\_PLAN & \textbf{+0.1906} & [+0.1761, +0.2057] & \textbf{+0.0578} & [+0.0548, +0.0609] & 1 \\
+\bottomrule
+\end{tabular*}
+\endgroup
+\par\vspace{2pt}
+{\fontsize{8}{9.2}\selectfont\raggedright FAVR minus control at matched actual $q$ ($5\%$): 48 matched run pairs per control, 16 equally weighted configurations. Pointwise 95\% CIs are conditional on the fixed datasets, backends, and starts; bootstrap details are in Section~\ref{sec:eval-metrics}. Opp.: configurations with opposite-sign metric gains. Bold: positive means.\par}
+\end{minipage}
+\end{table}

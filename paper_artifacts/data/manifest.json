@@ -1,0 +1,38 @@
+{
+  "reference_id": "FULL_REFERENCE_20260928",
+  "value_columns": "before / before_mean are current-reference values; delta is a no-edit scenario comparison, not a stage or control gain.",
+  "files": [
+    {
+      "file": "configuration_diffs.csv",
+      "bytes": 1809622
+    },
+    {
+      "file": "CURRENT_REFERENCE.json",
+      "bytes": 91
+    },
+    {
+      "file": "external_baselines.json",
+      "bytes": 23524
+    },
+    {
+      "file": "label_statistics.csv",
+      "bytes": 633
+    },
+    {
+      "file": "rq2_overall_diffs.csv",
+      "bytes": 5905
+    },
+    {
+      "file": "run_metric_diffs.csv",
+      "bytes": 4546011
+    },
+    {
+      "file": "running_case.json",
+      "bytes": 129421
+    },
+    {
+      "file": "source_coverage.json",
+      "bytes": 735
+    }
+  ]
+}

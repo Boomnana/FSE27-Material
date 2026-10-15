@@ -1,0 +1,958 @@
+{
+  "schema": "favr-review-file-inventory-v2",
+  "check": "File presence and size; scientific validation is performed by the documented offline commands.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8
+    },
+    {
+      "path": "code/a3s/a3s_adapter/__init__.py",
+      "bytes": 235
+    },
+    {
+      "path": "code/a3s/a3s_adapter/artifacts.py",
+      "bytes": 3376
+    },
+    {
+      "path": "code/a3s/a3s_adapter/calibration.py",
+      "bytes": 2931
+    },
+    {
+      "path": "code/a3s/a3s_adapter/core.py",
+      "bytes": 39106
+    },
+    {
+      "path": "code/a3s/a3s_adapter/layered_oracle.py",
+      "bytes": 4420
+    },
+    {
+      "path": "code/baselines/baseline_lib.py",
+      "bytes": 12967
+    },
+    {
+      "path": "code/baselines/offline_selected.py",
+      "bytes": 4511
+    },
+    {
+      "path": "code/baselines/stopwords_zh.txt",
+      "bytes": 719
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/__init__.py",
+      "bytes": 23
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/acquisition.py",
+      "bytes": 2621
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/data.py",
+      "bytes": 6989
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/decoder.py",
+      "bytes": 14032
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/evidence.py",
+      "bytes": 5546
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/features.py",
+      "bytes": 8637
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/initialization.py",
+      "bytes": 14803
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/metrics.py",
+      "bytes": 1784
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/probing.py",
+      "bytes": 4447
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/provider.py",
+      "bytes": 16756
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/runner.py",
+      "bytes": 54672
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/selector.py",
+      "bytes": 21673
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/shared_oracle.py",
+      "bytes": 18271
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/silra_transport_v2.py",
+      "bytes": 10070
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/study_controls.py",
+      "bytes": 8027
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/surrogate.py",
+      "bytes": 15722
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/tracing.py",
+      "bytes": 13772
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/aqcc_final/warmup.py",
+      "bytes": 10293
+    },
+    {
+      "path": "code/favr/deepseek_v4_flash/prepare_tfidf_hc.py",
+      "bytes": 1855
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/__init__.py",
+      "bytes": 23
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/acquisition.py",
+      "bytes": 2621
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/data.py",
+      "bytes": 6989
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/decoder.py",
+      "bytes": 14032
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/evidence.py",
+      "bytes": 5546
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/features.py",
+      "bytes": 8637
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/initialization.py",
+      "bytes": 14803
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/metrics.py",
+      "bytes": 1784
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/probing.py",
+      "bytes": 4447
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/provider.py",
+      "bytes": 16428
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/runner.py",
+      "bytes": 54672
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/selector.py",
+      "bytes": 21673
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/shared_oracle.py",
+      "bytes": 18271
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/silra_transport_v2.py",
+      "bytes": 10070
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/study_controls.py",
+      "bytes": 8027
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/surrogate.py",
+      "bytes": 15722
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/tracing.py",
+      "bytes": 13772
+    },
+    {
+      "path": "code/favr/qwen35/aqcc_final/warmup.py",
+      "bytes": 10293
+    },
+    {
+      "path": "code/favr/qwen35/prepare_tfidf_hc.py",
+      "bytes": 1855
+    },
+    {
+      "path": "code/favr/run_registered.py",
+      "bytes": 3088
+    },
+    {
+      "path": "code/llmcluster/common.py",
+      "bytes": 536
+    },
+    {
+      "path": "code/llmcluster/native_bridge.py",
+      "bytes": 4050
+    },
+    {
+      "path": "code/llmcluster/upstream/LICENSE",
+      "bytes": 35149
+    },
+    {
+      "path": "code/llmcluster/upstream/main.py",
+      "bytes": 5948
+    },
+    {
+      "path": "code/llmcluster/upstream/prompt.py",
+      "bytes": 1161
+    },
+    {
+      "path": "code/README.txt",
+      "bytes": 3007
+    },
+    {
+      "path": "code/requirements.txt",
+      "bytes": 65
+    },
+    {
+      "path": "configs/baseline_selected_settings.json",
+      "bytes": 6469
+    },
+    {
+      "path": "configs/baseline_upstream_partitions.json",
+      "bytes": 276215
+    },
+    {
+      "path": "configs/favr_runs.json",
+      "bytes": 994249
+    },
+    {
+      "path": "data/DATA_FORMAT.md",
+      "bytes": 6399
+    },
+    {
+      "path": "data/initializations/huawei/I_hc/start_state.json",
+      "bytes": 98432
+    },
+    {
+      "path": "data/initializations/huawei/I_hc/tfidf_vectors.npz",
+      "bytes": 106882
+    },
+    {
+      "path": "data/initializations/huawei/I_llm/start_state.json",
+      "bytes": 93756
+    },
+    {
+      "path": "data/initializations/huawei/I_llm/tfidf_vectors.npz",
+      "bytes": 106882
+    },
+    {
+      "path": "data/initializations/hujiang/I_hc/start_state.json",
+      "bytes": 117144
+    },
+    {
+      "path": "data/initializations/hujiang/I_hc/tfidf_vectors.npz",
+      "bytes": 139745
+    },
+    {
+      "path": "data/initializations/hujiang/I_llm/start_state.json",
+      "bytes": 110312
+    },
+    {
+      "path": "data/initializations/hujiang/I_llm/tfidf_vectors.npz",
+      "bytes": 139745
+    },
+    {
+      "path": "data/initializations/ielts/I_hc/start_state.json",
+      "bytes": 125305
+    },
+    {
+      "path": "data/initializations/ielts/I_hc/tfidf_vectors.npz",
+      "bytes": 92900
+    },
+    {
+      "path": "data/initializations/ielts/I_llm/start_state.json",
+      "bytes": 110461
+    },
+    {
+      "path": "data/initializations/ielts/I_llm/tfidf_vectors.npz",
+      "bytes": 92900
+    },
+    {
+      "path": "data/initializations/jayme/I_hc/start_state.json",
+      "bytes": 303163
+    },
+    {
+      "path": "data/initializations/jayme/I_hc/tfidf_vectors.npz",
+      "bytes": 294989
+    },
+    {
+      "path": "data/initializations/jayme/I_llm/start_state.json",
+      "bytes": 274657
+    },
+    {
+      "path": "data/initializations/jayme/I_llm/tfidf_vectors.npz",
+      "bytes": 294989
+    },
+    {
+      "path": "data/initializations/manifest.json",
+      "bytes": 3663
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 122241
+    },
+    {
+      "path": "data/partitions.jsonl.gz",
+      "bytes": 4189588
+    },
+    {
+      "path": "data/reference/huawei.json",
+      "bytes": 10536
+    },
+    {
+      "path": "data/reference/hujiang.json",
+      "bytes": 9981
+    },
+    {
+      "path": "data/reference/ielts.json",
+      "bytes": 20249
+    },
+    {
+      "path": "data/reference/jayme.json",
+      "bytes": 34184
+    },
+    {
+      "path": "data/reference/manifest.json",
+      "bytes": 501
+    },
+    {
+      "path": "data/report_order.json",
+      "bytes": 34548
+    },
+    {
+      "path": "data/reports/huawei.json",
+      "bytes": 55654
+    },
+    {
+      "path": "data/reports/hujiang.json",
+      "bytes": 67702
+    },
+    {
+      "path": "data/reports/ielts.json",
+      "bytes": 59041
+    },
+    {
+      "path": "data/reports/jayme.json",
+      "bytes": 172525
+    },
+    {
+      "path": "data/verify_data.py",
+      "bytes": 8652
+    },
+    {
+      "path": "paper_artifacts/data/configuration_diffs.csv",
+      "bytes": 1809622
+    },
+    {
+      "path": "paper_artifacts/data/CURRENT_REFERENCE.json",
+      "bytes": 91
+    },
+    {
+      "path": "paper_artifacts/data/external_baselines.json",
+      "bytes": 23524
+    },
+    {
+      "path": "paper_artifacts/data/label_statistics.csv",
+      "bytes": 633
+    },
+    {
+      "path": "paper_artifacts/data/manifest.json",
+      "bytes": 824
+    },
+    {
+      "path": "paper_artifacts/data/rq2_overall_diffs.csv",
+      "bytes": 5905
+    },
+    {
+      "path": "paper_artifacts/data/run_metric_diffs.csv",
+      "bytes": 4546011
+    },
+    {
+      "path": "paper_artifacts/data/running_case.json",
+      "bytes": 129421
+    },
+    {
+      "path": "paper_artifacts/data/source_coverage.json",
+      "bytes": 735
+    },
+    {
+      "path": "paper_artifacts/figures/aqcc-overview.pdf",
+      "bytes": 1147472
+    },
+    {
+      "path": "paper_artifacts/figures/F1_stage_quality_and_errors.pdf",
+      "bytes": 35680
+    },
+    {
+      "path": "paper_artifacts/figures/F2_paired_control_effects.pdf",
+      "bytes": 55134
+    },
+    {
+      "path": "paper_artifacts/figures/F3_budget_quality_trajectories.pdf",
+      "bytes": 32355
+    },
+    {
+      "path": "paper_artifacts/figures/F4_process_changes.pdf",
+      "bytes": 31963
+    },
+    {
+      "path": "paper_artifacts/figures/F5_running_case.pdf",
+      "bytes": 26943
+    },
+    {
+      "path": "paper_artifacts/figures/panel-1.pdf",
+      "bytes": 54307
+    },
+    {
+      "path": "paper_artifacts/figures/panel-1_editable.svg",
+      "bytes": 51861
+    },
+    {
+      "path": "paper_artifacts/provenance.json",
+      "bytes": 6777
+    },
+    {
+      "path": "paper_artifacts/statistics/rq2_conditional_intervals_20261003.json",
+      "bytes": 3477
+    },
+    {
+      "path": "paper_artifacts/tables/rq1.tex",
+      "bytes": 3223
+    },
+    {
+      "path": "paper_artifacts/tables/rq2.tex",
+      "bytes": 1631
+    },
+    {
+      "path": "paper_artifacts/tables/rq3.tex",
+      "bytes": 3194
+    },
+    {
+      "path": "paper_artifacts/tables/rq4.tex",
+      "bytes": 3008
+    },
+    {
+      "path": "paper_artifacts/tables/table1.tex",
+      "bytes": 1402
+    },
+    {
+      "path": "paper_artifacts/tables/table2.tex",
+      "bytes": 995
+    },
+    {
+      "path": "protocols/baseline_selection_verification.json",
+      "bytes": 16241
+    },
+    {
+      "path": "protocols/code_provenance.json",
+      "bytes": 14232
+    },
+    {
+      "path": "protocols/llmcluster_native_protocol.json",
+      "bytes": 5173
+    },
+    {
+      "path": "protocols/pair_prompt.txt",
+      "bytes": 1823
+    },
+    {
+      "path": "protocols/pair_response_schema.json",
+      "bytes": 407
+    },
+    {
+      "path": "protocols/PROTOCOL_NOTES.txt",
+      "bytes": 6285
+    },
+    {
+      "path": "protocols/runtime_source_bindings.json",
+      "bytes": 1498
+    },
+    {
+      "path": "protocols/selected_reconstruction_verification.json",
+      "bytes": 1727
+    },
+    {
+      "path": "README.md",
+      "bytes": 4954
+    },
+    {
+      "path": "reproduce/build_paper.py",
+      "bytes": 1225
+    },
+    {
+      "path": "reproduce/build_tables.py",
+      "bytes": 29081
+    },
+    {
+      "path": "reproduce/common.py",
+      "bytes": 3264
+    },
+    {
+      "path": "reproduce/plot_case.py",
+      "bytes": 6700
+    },
+    {
+      "path": "reproduce/plot_rq1.py",
+      "bytes": 6833
+    },
+    {
+      "path": "reproduce/plot_rq2.py",
+      "bytes": 10234
+    },
+    {
+      "path": "reproduce/plot_rq3.py",
+      "bytes": 6427
+    },
+    {
+      "path": "reproduce/plot_rq4.py",
+      "bytes": 11452
+    },
+    {
+      "path": "reproduce/README.md",
+      "bytes": 2935
+    },
+    {
+      "path": "reproduce/requirements.txt",
+      "bytes": 32
+    },
+    {
+      "path": "reproduce/table_uncertainty.py",
+      "bytes": 5324
+    },
+    {
+      "path": "reproduce/verify_ci.py",
+      "bytes": 4046
+    },
+    {
+      "path": "reproduce/verify_scores.py",
+      "bytes": 7700
+    },
+    {
+      "path": "runs/baselines/endpoints.jsonl",
+      "bytes": 17111
+    },
+    {
+      "path": "runs/controls/endpoints.jsonl",
+      "bytes": 237060
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 62056
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 54600
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 62676
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 54405
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 56972
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 53068
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 59888
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52270
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 59775
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 53109
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 59945
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52097
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 79389
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 72401
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 79502
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 70253
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 79462
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 70631
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 68852
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 68993
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 69419
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 68459
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 69161
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 68958
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 123112
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 111136
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 123104
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 109918
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 124325
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 111824
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 109390
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 110874
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 113148
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 108860
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 109129
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 110372
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 579458
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561924
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 579316
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561474
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 579493
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561815
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 580760
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561406
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 580826
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 560704
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 585645
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 552591
+    },
+    {
+      "path": "runs/main/checkpoints.jsonl",
+      "bytes": 678513
+    },
+    {
+      "path": "runs/main/index.json",
+      "bytes": 41229
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5798
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5813
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5894
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5912
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5624
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5795
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5688
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5639
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5764
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5776
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5774
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5667
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7376
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7269
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7415
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7418
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7361
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7351
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7418
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7341
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7417
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7416
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7241
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7400
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 11031
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 11078
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10982
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 11203
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 11111
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 11210
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10739
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 10923
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10676
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 10896
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10835
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 10895
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51761
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52171
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51738
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52081
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51632
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52080
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 52063
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52243
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 52016
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 51746
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51853
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 51922
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 9402
+    },
+    {
+      "path": "verify_manifest.py",
+      "bytes": 890
+    }
+  ]
+}

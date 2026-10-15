@@ -1,0 +1,31 @@
+Release scope and provenance
+
+This is a derived review package. Ordinary Python comments are removed; docstrings, method names, evaluation decisions, and license terms are retained. File/function provenance and release adaptations are in code_provenance.json. Backend names are standardized to the author-confirmed Qwen3.5 and DeepSeek-v4 identities. This metadata correction does not change recorded seeds, judgments, partitions, or measurements. No historical experiment result has been regenerated with new judgments.
+
+FAVR
+Each runtime variant contains 18 core modules. oracle_core.py and oracle_runner.py are offline reference-oracle diagnostics, are not imported by the FAVR experiment entry point, and are excluded from the minimal runtime. runtime_source_bindings.json lists the included and excluded modules. The runtime folders identify historical provider/transport implementation families; the explicit model field identifies each job's backend. The JAYME DeepSeek jobs retain their original runtime family.
+There are 288 run records: 216 non-JAYME records (36 FAVR and 180 controls), and 72 JAYME records (12 FAVR and 60 controls). Later JAYME attempts are not substituted. The 12 JAYME FAVR configurations were reconstructed from the archived builder and checked against their terminal records. The 60 JAYME controls have registered parameters but no corresponding terminal configuration binding in the supplied archive. Explicit historical seeds are preserved and must not be rederived from standardized model or block names.
+portable_archived_config preserves available experimental settings with anonymous paths and standardized model metadata. Publication-only integrity fields are omitted. The entry point uses explicit worker settings, including batch/concurrency 16 and decoder_max_steps 1000, and does not read reference labels. Pair response parsing and the original pair prompt are supplied. The response schema supplements duplicate-key and finite-number checks in provider.py. The start-state loaders accept omitted optional integrity metadata while retaining report-order, vector-shape, finite-value, and complete-partition checks. Internal runtime cache and request integrity operations are unchanged.
+
+Initialization
+All eight frozen starts are supplied with vectors. The HC implementation is included. The LLM initialization-menu generator, instantiated menus, dedicated grouping prompt/schema/validator, and original preparation manifests remain unavailable. Frozen states do not reproduce those upstream steps.
+
+Baseline selection
+The two external pipelines were selected against the target reference labels using ARI first and B3-F1 second. This is in-sample reference-based parameter selection, as described in the paper. Construction of text similarities and fuzzy memberships does not use labels; the selection stage does. offline_selected.py reconstructs the eight published selected partitions without running the full parameter search. baseline_lib.evaluate_family retains reference-based grid evaluation and the unconstrained lexicographic best-candidate rule. Full historical candidate tables are omitted; the audit summary records coverage and selection equivalence.
+
+Historical selection provenance: terfur_semantic_seeded.py used the following original lines:
+    eligible = [row for row in candidates if CURRENT[dataset] < row["ari"] < advanced.AQCC_FLOOR[dataset]]
+    if not eligible:
+        raise RuntimeError(f"No improved TERFUR candidate for {dataset}")
+    chosen = max(eligible, key=lambda row: (row["ari"], row["b3_f1"]))
+The corresponding advanced_traditional_tune.py also defined AQCC_FLOOR and used it in an intermediate selected-row filter. The release selection rule is max(candidates, key=(ARI, B3-F1)), independent of FAVR scores. Independent inspection of 326,019 saved LLMCluster candidates and 960 regenerated TERFUR candidates found that all eight selected results were already unconstrained maxima. Reconstruction of 95,850 TERFUR seed candidates preserved all four top-60 lists. Removing that condition therefore did not change the selected results. This change is disclosed rather than presented as the historical rule. Audit counts and selection outcomes are retained. Historical oracle/trial scripts not used for these eight selected results are excluded.
+Historical tfidf_word12 in the LLMCluster branch uses a callable analyzer and therefore supplies segmented tokens, not automatic word bigrams. The coassoc_deepseek_v4 setting denotes the DeepSeek upstream run set.
+
+A3S
+The supplied adapter is the available implementation. It is not claimed to reconstruct the exact 16 paper runs: their run-specific parameter/source bindings remain unavailable. The distinct 48-run W2 batch is excluded. No default tau/seed is claimed as the paper's setting. The adapter implements the A3S method from Deng et al. (2024); the collected upstream README points to arXiv:2407.10196. No license file was supplied with that upstream snapshot. This package includes the local adapter rather than copying its unrelated third-party repository.
+
+LLMCluster upstream
+The upstream ClusterManager class and native prompt are provided with the original GPL-3.0 license and the local boundary adapter. Only the original class AST is loaded by native_bridge; Gold-dependent upstream evaluation imports are not run. The local adapter injects the query callback, model backend, complete report loader and UTF-8 output. The source class's internal gpt-4o argument is overridden by the historical transport adapter; it is not the experimental backend. Source protocol fields document both actual backends, temperature zero and 4096-token replies. These components are source material, while the offline selected pipeline uses the 24 archived upstream partitions. No live upstream service rerun is claimed by the review package.
+
+Environment
+requirements.txt records the environment used for offline selected-baseline verification (Python 3.12.14). It is not a historical lockfile: inherited release-version metadata conflicts with the NumPy version saved in RANDOM manifests. RANDOM permutations were separately reproduced under NumPy 2.4.3. LLM service and numerical-library changes may alter a new online run.

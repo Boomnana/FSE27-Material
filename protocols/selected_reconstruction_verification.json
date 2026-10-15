@@ -1,0 +1,61 @@
+{
+  "scope": "Eight selected baseline partitions regenerated using the distributed source and current reference; no online queries; complete memberships and metrics checked.",
+  "results": [
+    {
+      "method": "LLMCluster",
+      "dataset": "jayme",
+      "partition_id": "record_004993",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    },
+    {
+      "method": "LLMCluster",
+      "dataset": "ielts",
+      "partition_id": "record_006240",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    },
+    {
+      "method": "LLMCluster",
+      "dataset": "hujiang",
+      "partition_id": "record_007294",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    },
+    {
+      "method": "LLMCluster",
+      "dataset": "huawei",
+      "partition_id": "record_008633",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    },
+    {
+      "method": "TERFUR",
+      "dataset": "jayme",
+      "partition_id": "record_008247",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    },
+    {
+      "method": "TERFUR",
+      "dataset": "ielts",
+      "partition_id": "record_003134",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    },
+    {
+      "method": "TERFUR",
+      "dataset": "hujiang",
+      "partition_id": "record_001294",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    },
+    {
+      "method": "TERFUR",
+      "dataset": "huawei",
+      "partition_id": "record_006141",
+      "partition_membership_identical": true,
+      "metric_differences": {}
+    }
+  ]
+}

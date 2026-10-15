@@ -1,0 +1,2608 @@
+{
+  "schema": "favr-data-package/2",
+  "reference_id": "FULL_REFERENCE_20260928",
+  "sources": {
+    "source_000230": {
+      "bytes": 35595,
+      "source_name": "jayme_full_reference.json",
+      "role": "current offline reference labels"
+    },
+    "source_000146": {
+      "bytes": 172525,
+      "source_name": "reports.json",
+      "role": "report corpus; bytes unchanged"
+    },
+    "source_000274": {
+      "bytes": 263537,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000097": {
+      "bytes": 294989,
+      "source_name": "tfidf_vectors.npz",
+      "role": "frozen TF-IDF vectors; bytes unchanged"
+    },
+    "source_000174": {
+      "bytes": 378974,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000037": {
+      "bytes": 21267,
+      "source_name": "ielts_full_reference.json",
+      "role": "current offline reference labels"
+    },
+    "source_000265": {
+      "bytes": 59041,
+      "source_name": "reports.json",
+      "role": "report corpus; bytes unchanged"
+    },
+    "source_000259": {
+      "bytes": 103046,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000122": {
+      "bytes": 92900,
+      "source_name": "tfidf_vectors.npz",
+      "role": "frozen TF-IDF vectors; bytes unchanged"
+    },
+    "source_000113": {
+      "bytes": 161294,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000370": {
+      "bytes": 10933,
+      "source_name": "hujiang_full_reference.json",
+      "role": "current offline reference labels"
+    },
+    "source_000063": {
+      "bytes": 67702,
+      "source_name": "reports.json",
+      "role": "report corpus; bytes unchanged"
+    },
+    "source_000007": {
+      "bytes": 103542,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000006": {
+      "bytes": 139745,
+      "source_name": "tfidf_vectors.npz",
+      "role": "frozen TF-IDF vectors; bytes unchanged"
+    },
+    "source_000295": {
+      "bytes": 145859,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000095": {
+      "bytes": 11461,
+      "source_name": "huawei_full_reference.json",
+      "role": "current offline reference labels"
+    },
+    "source_000171": {
+      "bytes": 55654,
+      "source_name": "reports.json",
+      "role": "report corpus; bytes unchanged"
+    },
+    "source_000379": {
+      "bytes": 87888,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000245": {
+      "bytes": 106882,
+      "source_name": "tfidf_vectors.npz",
+      "role": "frozen TF-IDF vectors; bytes unchanged"
+    },
+    "source_000136": {
+      "bytes": 124312,
+      "source_name": "start_state.json",
+      "role": "frozen initialization"
+    },
+    "source_000102": {
+      "bytes": 142446839,
+      "source_name": "原始分区与查询日志补齐_20260928.zip",
+      "role": "source archive"
+    },
+    "source_000299": {
+      "bytes": 1073205,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000345": {
+      "bytes": 5922259,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000040": {
+      "bytes": 28105,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000088": {
+      "bytes": 1087758,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000162": {
+      "bytes": 5579247,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000291": {
+      "bytes": 27569,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000153": {
+      "bytes": 1078544,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000251": {
+      "bytes": 6026705,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000151": {
+      "bytes": 28134,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000249": {
+      "bytes": 1092749,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000015": {
+      "bytes": 5633454,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000256": {
+      "bytes": 27620,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000119": {
+      "bytes": 1076260,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000244": {
+      "bytes": 5919862,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000108": {
+      "bytes": 28303,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000160": {
+      "bytes": 1093892,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000359": {
+      "bytes": 5601250,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000049": {
+      "bytes": 27741,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000374": {
+      "bytes": 1075499,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000325": {
+      "bytes": 5340260,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000104": {
+      "bytes": 28265,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000241": {
+      "bytes": 1083801,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000105": {
+      "bytes": 4991048,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000355": {
+      "bytes": 27640,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000017": {
+      "bytes": 1076084,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000150": {
+      "bytes": 5351306,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000350": {
+      "bytes": 28230,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000214": {
+      "bytes": 1083192,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000020": {
+      "bytes": 5007954,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000399": {
+      "bytes": 27569,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000209": {
+      "bytes": 1076227,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000337": {
+      "bytes": 5344064,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000260": {
+      "bytes": 28299,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000331": {
+      "bytes": 1090316,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000340": {
+      "bytes": 4993588,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000134": {
+      "bytes": 27639,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000217": {
+      "bytes": 1423831,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000304": {
+      "bytes": 7836793,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000351": {
+      "bytes": 30773,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000198": {
+      "bytes": 1437118,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000166": {
+      "bytes": 7162277,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000023": {
+      "bytes": 30340,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000143": {
+      "bytes": 1434063,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000188": {
+      "bytes": 7838167,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000290": {
+      "bytes": 30789,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000073": {
+      "bytes": 1440549,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000096": {
+      "bytes": 7243302,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000127": {
+      "bytes": 30313,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000213": {
+      "bytes": 1432021,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000139": {
+      "bytes": 7729237,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000051": {
+      "bytes": 30590,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000286": {
+      "bytes": 1440411,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000107": {
+      "bytes": 7166279,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000234": {
+      "bytes": 30432,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000348": {
+      "bytes": 1425312,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000019": {
+      "bytes": 6181384,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000303": {
+      "bytes": 30611,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000089": {
+      "bytes": 1436930,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000302": {
+      "bytes": 6240566,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000130": {
+      "bytes": 30272,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000318": {
+      "bytes": 1423229,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000306": {
+      "bytes": 6186330,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000278": {
+      "bytes": 30526,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000301": {
+      "bytes": 1435455,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000050": {
+      "bytes": 6172028,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000014": {
+      "bytes": 30215,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000047": {
+      "bytes": 1425226,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000327": {
+      "bytes": 6190722,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000300": {
+      "bytes": 30556,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000257": {
+      "bytes": 1436308,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000114": {
+      "bytes": 6206094,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000378": {
+      "bytes": 30289,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000039": {
+      "bytes": 2637865,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000292": {
+      "bytes": 11986154,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000219": {
+      "bytes": 36652,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000082": {
+      "bytes": 2652087,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000322": {
+      "bytes": 11202441,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000167": {
+      "bytes": 37607,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000288": {
+      "bytes": 2631960,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000197": {
+      "bytes": 11989496,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000316": {
+      "bytes": 36648,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000204": {
+      "bytes": 2652586,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000021": {
+      "bytes": 11190967,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000267": {
+      "bytes": 37554,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000343": {
+      "bytes": 2630033,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000186": {
+      "bytes": 11951667,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000004": {
+      "bytes": 36670,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000282": {
+      "bytes": 2652352,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000354": {
+      "bytes": 11072590,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000200": {
+      "bytes": 37608,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000176": {
+      "bytes": 2628844,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000403": {
+      "bytes": 9756523,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000410": {
+      "bytes": 36685,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000086": {
+      "bytes": 2646888,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000202": {
+      "bytes": 9718746,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000367": {
+      "bytes": 37461,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000194": {
+      "bytes": 2626997,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000268": {
+      "bytes": 10027930,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000159": {
+      "bytes": 36687,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000366": {
+      "bytes": 2645356,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000233": {
+      "bytes": 9644802,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000222": {
+      "bytes": 37551,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000246": {
+      "bytes": 2626152,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000317": {
+      "bytes": 9740815,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000383": {
+      "bytes": 36662,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000321": {
+      "bytes": 2648529,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000180": {
+      "bytes": 9732922,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000333": {
+      "bytes": 37496,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000212": {
+      "bytes": 23230306,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000215": {
+      "bytes": 47481732,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000062": {
+      "bytes": 70534,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000048": {
+      "bytes": 23289660,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000254": {
+      "bytes": 46464456,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000032": {
+      "bytes": 71798,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000275": {
+      "bytes": 23230603,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000338": {
+      "bytes": 47474351,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000057": {
+      "bytes": 70616,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000312": {
+      "bytes": 23295207,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000384": {
+      "bytes": 46443987,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000352": {
+      "bytes": 71877,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000271": {
+      "bytes": 23259007,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000261": {
+      "bytes": 47768899,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000067": {
+      "bytes": 70658,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000031": {
+      "bytes": 23311501,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000310": {
+      "bytes": 45995433,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000128": {
+      "bytes": 71894,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000147": {
+      "bytes": 23264498,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000075": {
+      "bytes": 47399329,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000326": {
+      "bytes": 70633,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000121": {
+      "bytes": 23293608,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000236": {
+      "bytes": 46446939,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000109": {
+      "bytes": 71865,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000076": {
+      "bytes": 23237816,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000394": {
+      "bytes": 47408440,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000205": {
+      "bytes": 70444,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000238": {
+      "bytes": 23275192,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000308": {
+      "bytes": 46435904,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000208": {
+      "bytes": 71721,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000018": {
+      "bytes": 23249662,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000266": {
+      "bytes": 47400361,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000054": {
+      "bytes": 70532,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR/terminal.json"
+    },
+    "source_000084": {
+      "bytes": 23270766,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000053": {
+      "bytes": 46396878,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/pair_queries.jsonl"
+    },
+    "source_000279": {
+      "bytes": 71816,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/01_AQCC_48次运行/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/terminal.json"
+    },
+    "source_000138": {
+      "bytes": 525598,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000034": {
+      "bytes": 536054,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000395": {
+      "bytes": 521049,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000262": {
+      "bytes": 537353,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000100": {
+      "bytes": 541597,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000239": {
+      "bytes": 538404,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000120": {
+      "bytes": 550696,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000029": {
+      "bytes": 536284,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000148": {
+      "bytes": 553387,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000347": {
+      "bytes": 555280,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R1__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000247": {
+      "bytes": 524243,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000193": {
+      "bytes": 537921,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000272": {
+      "bytes": 522208,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000220": {
+      "bytes": 539188,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000117": {
+      "bytes": 542220,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000124": {
+      "bytes": 539226,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000173": {
+      "bytes": 552657,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000092": {
+      "bytes": 537477,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000044": {
+      "bytes": 554293,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000248": {
+      "bytes": 557744,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R2__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000263": {
+      "bytes": 526168,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000407": {
+      "bytes": 536494,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000330": {
+      "bytes": 522370,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000081": {
+      "bytes": 538186,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000190": {
+      "bytes": 544476,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000125": {
+      "bytes": 540706,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000024": {
+      "bytes": 551166,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000036": {
+      "bytes": 537557,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000335": {
+      "bytes": 554197,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000098": {
+      "bytes": 557915,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__deepseek-v4-flash__R3__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000377": {
+      "bytes": 524225,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000281": {
+      "bytes": 536824,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000396": {
+      "bytes": 522534,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000103": {
+      "bytes": 538763,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000409": {
+      "bytes": 542574,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000356": {
+      "bytes": 533617,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000045": {
+      "bytes": 545771,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000385": {
+      "bytes": 532174,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000140": {
+      "bytes": 546747,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000060": {
+      "bytes": 550334,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R1__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000375": {
+      "bytes": 524237,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000135": {
+      "bytes": 538304,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000389": {
+      "bytes": 522759,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000195": {
+      "bytes": 538714,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000320": {
+      "bytes": 543552,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000149": {
+      "bytes": 533919,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000269": {
+      "bytes": 546470,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000013": {
+      "bytes": 531891,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000332": {
+      "bytes": 545673,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000177": {
+      "bytes": 549991,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R2__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000158": {
+      "bytes": 524645,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000297": {
+      "bytes": 537329,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000016": {
+      "bytes": 522731,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000035": {
+      "bytes": 538912,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000011": {
+      "bytes": 543845,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000243": {
+      "bytes": 539348,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000250": {
+      "bytes": 551300,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000229": {
+      "bytes": 537315,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000307": {
+      "bytes": 551254,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000072": {
+      "bytes": 555543,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/huawei__qwen3.5-flash__R3__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000110": {
+      "bytes": 701613,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000074": {
+      "bytes": 718160,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000237": {
+      "bytes": 699972,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000408": {
+      "bytes": 720966,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000144": {
+      "bytes": 725316,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000344": {
+      "bytes": 707709,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000183": {
+      "bytes": 725754,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000218": {
+      "bytes": 705774,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000059": {
+      "bytes": 726086,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000118": {
+      "bytes": 729542,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R1__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000285": {
+      "bytes": 701564,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000030": {
+      "bytes": 717993,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000181": {
+      "bytes": 700350,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000175": {
+      "bytes": 721417,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000388": {
+      "bytes": 723863,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000178": {
+      "bytes": 706183,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000080": {
+      "bytes": 724269,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000221": {
+      "bytes": 705845,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000066": {
+      "bytes": 722931,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000093": {
+      "bytes": 730969,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R2__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000255": {
+      "bytes": 701665,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000305": {
+      "bytes": 718278,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000126": {
+      "bytes": 702729,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000342": {
+      "bytes": 716990,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000083": {
+      "bytes": 725355,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000280": {
+      "bytes": 710423,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000106": {
+      "bytes": 724881,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000041": {
+      "bytes": 705713,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000094": {
+      "bytes": 726391,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000203": {
+      "bytes": 729718,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__deepseek-v4-flash__R3__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000309": {
+      "bytes": 694786,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000336": {
+      "bytes": 713000,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000228": {
+      "bytes": 695168,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000165": {
+      "bytes": 714821,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000242": {
+      "bytes": 721232,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000360": {
+      "bytes": 706903,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000155": {
+      "bytes": 725594,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000133": {
+      "bytes": 704830,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000196": {
+      "bytes": 721811,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000027": {
+      "bytes": 730237,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R1__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000069": {
+      "bytes": 694066,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000324": {
+      "bytes": 713263,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000393": {
+      "bytes": 692935,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000294": {
+      "bytes": 716092,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000199": {
+      "bytes": 720937,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000010": {
+      "bytes": 706409,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000314": {
+      "bytes": 725170,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000296": {
+      "bytes": 704527,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000141": {
+      "bytes": 725552,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000009": {
+      "bytes": 728244,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R2__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000334": {
+      "bytes": 694629,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000168": {
+      "bytes": 712378,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000112": {
+      "bytes": 693354,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000258": {
+      "bytes": 713985,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000391": {
+      "bytes": 717901,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000142": {
+      "bytes": 706570,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000145": {
+      "bytes": 724011,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000064": {
+      "bytes": 704922,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000361": {
+      "bytes": 723257,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000365": {
+      "bytes": 729845,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/hujiang__qwen3.5-flash__R3__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000284": {
+      "bytes": 1293173,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000115": {
+      "bytes": 1322795,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000201": {
+      "bytes": 1286953,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000264": {
+      "bytes": 1322306,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000293": {
+      "bytes": 1333132,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000392": {
+      "bytes": 1303604,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000364": {
+      "bytes": 1336158,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000055": {
+      "bytes": 1298105,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000012": {
+      "bytes": 1335964,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000398": {
+      "bytes": 1349031,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R1__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000187": {
+      "bytes": 1290803,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000277": {
+      "bytes": 1323570,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000008": {
+      "bytes": 1287289,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000216": {
+      "bytes": 1321112,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000253": {
+      "bytes": 1327019,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000005": {
+      "bytes": 1303417,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000276": {
+      "bytes": 1338832,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000273": {
+      "bytes": 1297860,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000043": {
+      "bytes": 1335225,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000026": {
+      "bytes": 1349313,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R2__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000235": {
+      "bytes": 1284946,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000349": {
+      "bytes": 1316209,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000362": {
+      "bytes": 1280570,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000206": {
+      "bytes": 1314349,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000152": {
+      "bytes": 1323331,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000357": {
+      "bytes": 1303810,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000111": {
+      "bytes": 1337142,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000001": {
+      "bytes": 1301362,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000387": {
+      "bytes": 1338474,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000170": {
+      "bytes": 1347184,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__deepseek-v4-flash__R3__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000065": {
+      "bytes": 1284390,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000116": {
+      "bytes": 1316384,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000184": {
+      "bytes": 1281346,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000323": {
+      "bytes": 1315463,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000371": {
+      "bytes": 1321513,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000315": {
+      "bytes": 1304421,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000163": {
+      "bytes": 1335988,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000046": {
+      "bytes": 1298389,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000353": {
+      "bytes": 1331824,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000328": {
+      "bytes": 1344387,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R1__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000400": {
+      "bytes": 1282945,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000192": {
+      "bytes": 1317507,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000363": {
+      "bytes": 1283689,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000042": {
+      "bytes": 1313983,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000022": {
+      "bytes": 1322206,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000232": {
+      "bytes": 1305332,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000179": {
+      "bytes": 1340109,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000085": {
+      "bytes": 1297972,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000381": {
+      "bytes": 1331379,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000372": {
+      "bytes": 1343970,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R2__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000226": {
+      "bytes": 1282597,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_llm__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000091": {
+      "bytes": 1316172,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_llm__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000123": {
+      "bytes": 1280533,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_llm__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000369": {
+      "bytes": 1315512,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_llm__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000227": {
+      "bytes": 1326430,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_llm__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000283": {
+      "bytes": 1301758,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_CONST/micro_rounds.jsonl"
+    },
+    "source_000056": {
+      "bytes": 1336551,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_RANDOM/micro_rounds.jsonl"
+    },
+    "source_000058": {
+      "bytes": 1298195,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_TEXT/micro_rounds.jsonl"
+    },
+    "source_000038": {
+      "bytes": 1331369,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_tfidf__FROZEN_LR/micro_rounds.jsonl"
+    },
+    "source_000210": {
+      "bytes": 1346294,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/02_RQ2_五种控制_非JAYME_180次运行/ielts__qwen3.5-flash__R3__I_tfidf__FROZEN_PLAN/micro_rounds.jsonl"
+    },
+    "source_000376": {
+      "bytes": 3669465,
+      "source_name": "07_48次运行导出源_模型标注纠正_20260928.zip",
+      "role": "source archive"
+    },
+    "source_000191": {
+      "bytes": 1075499,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000380": {
+      "bytes": 1083801,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000225": {
+      "bytes": 1076084,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000373": {
+      "bytes": 1083192,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000270": {
+      "bytes": 1076227,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000341": {
+      "bytes": 1090316,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000071": {
+      "bytes": 1425312,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000025": {
+      "bytes": 1436930,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000240": {
+      "bytes": 1423229,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000033": {
+      "bytes": 1435455,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000211": {
+      "bytes": 1425226,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000231": {
+      "bytes": 1436308,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000346": {
+      "bytes": 2628844,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000052": {
+      "bytes": 2646888,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000079": {
+      "bytes": 2626997,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000068": {
+      "bytes": 2645356,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000397": {
+      "bytes": 2626152,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000368": {
+      "bytes": 2648529,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/01_fresh_api_rq123_qwen35_20260918/runs/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000164": {
+      "bytes": 1073205,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000252": {
+      "bytes": 1087758,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000169": {
+      "bytes": 1078544,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000161": {
+      "bytes": 1092749,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000224": {
+      "bytes": 1076260,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000189": {
+      "bytes": 1093892,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000002": {
+      "bytes": 1423831,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000099": {
+      "bytes": 1437118,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000156": {
+      "bytes": 1434063,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000319": {
+      "bytes": 1440549,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000404": {
+      "bytes": 1432021,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000157": {
+      "bytes": 1440411,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000154": {
+      "bytes": 2637865,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000313": {
+      "bytes": 2652087,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000390": {
+      "bytes": 2631960,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000172": {
+      "bytes": 2652586,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000182": {
+      "bytes": 2630033,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000287": {
+      "bytes": 2652352,
+      "archive_source_id": "source_000376",
+      "archive_member": "07_48次运行导出源_20260928/02_fresh_api_rq123_deepseek_v4_flash_20260919/runs/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR/micro_rounds.jsonl"
+    },
+    "source_000129": {
+      "bytes": 1024329,
+      "source_name": "全部策略_13预算点分区.jsonl.gz",
+      "role": "historical partition matrix; only exact current matched-control states extracted; historical scores excluded"
+    },
+    "source_000070": {
+      "bytes": 11683349,
+      "source_name": "run_metric_diffs.csv",
+      "role": "current reference scores used as expected values, independently recomputed during package verification"
+    },
+    "source_000298": {
+      "bytes": 36609,
+      "source_name": "external_baselines.json",
+      "role": "current external-baseline index"
+    },
+    "source_000003": {
+      "bytes": 5465,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/huawei__deepseek-v4-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000405": {
+      "bytes": 5465,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/huawei__deepseek-v4-flash__R1__I_tfidf__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000090": {
+      "bytes": 5572,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/huawei__qwen3.5-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000289": {
+      "bytes": 5512,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/huawei__qwen3.5-flash__R1__I_tfidf__A3S_P0_verified_v1_5pct/terminal.json"
+    },
+    "source_000087": {
+      "bytes": 5835,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/hujiang__deepseek-v4-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000061": {
+      "bytes": 5909,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/hujiang__deepseek-v4-flash__R1__I_tfidf__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000028": {
+      "bytes": 5932,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/hujiang__qwen3.5-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000339": {
+      "bytes": 5860,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/hujiang__qwen3.5-flash__R1__I_tfidf__A3S_P0_verified_v5_5pct/terminal.json"
+    },
+    "source_000185": {
+      "bytes": 6826,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/ielts__deepseek-v4-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000406": {
+      "bytes": 7054,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/ielts__deepseek-v4-flash__R1__I_tfidf__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000078": {
+      "bytes": 6837,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/ielts__qwen3.5-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000207": {
+      "bytes": 6993,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/ielts__qwen3.5-flash__R1__I_tfidf__A3S_P0_verified_v1_5pct/terminal.json"
+    },
+    "source_000402": {
+      "bytes": 12657,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/jayme__deepseek-v4-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000137": {
+      "bytes": 13029,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/jayme__deepseek-v4-flash__R1__I_tfidf__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000401": {
+      "bytes": 12523,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/jayme__qwen3.5-flash__R1__I_llm__A3S_P0_verified_serial_5pct/terminal.json"
+    },
+    "source_000386": {
+      "bytes": 12727,
+      "archive_source_id": "source_000102",
+      "archive_member": "原始分区与查询日志补齐_20260928/03_RQ1_A3S_16个最终分区/jayme__qwen3.5-flash__R1__I_tfidf__A3S_P0_verified_v2_5pct/terminal.json"
+    },
+    "source_000329": {
+      "bytes": 148789,
+      "source_name": "RQ1_最新结果更新_20260929.zip",
+      "role": "source archive"
+    },
+    "source_000223": {
+      "bytes": 18661,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/LLMCluster-tuned/jayme/partition.json"
+    },
+    "source_000132": {
+      "bytes": 9460,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/LLMCluster-tuned/ielts/partition.json"
+    },
+    "source_000131": {
+      "bytes": 8069,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/LLMCluster-tuned/hujiang/partition.json"
+    },
+    "source_000358": {
+      "bytes": 7811,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/LLMCluster-tuned/huawei/partition.json"
+    },
+    "source_000077": {
+      "bytes": 17661,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/TERFUR-desc-semantic-seeded-v2/jayme/partition.json"
+    },
+    "source_000311": {
+      "bytes": 9360,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/TERFUR-desc-semantic-seeded-v2/ielts/partition.json"
+    },
+    "source_000101": {
+      "bytes": 8319,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/TERFUR-desc-semantic-seeded-v2/hujiang/partition.json"
+    },
+    "source_000382": {
+      "bytes": 7741,
+      "archive_source_id": "source_000329",
+      "archive_member": "RQ1_最新结果更新_20260929/baseline_artifacts/TERFUR-desc-semantic-seeded-v2/huawei/partition.json"
+    }
+  },
+  "counts": {
+    "reports": 1567,
+    "frozen_initializations": 8,
+    "main_runs": 48,
+    "main_checkpoint_rows": 672,
+    "controls": 240,
+    "A3S": 16,
+    "selected_pipelines": 8,
+    "judgment_rows": 228285,
+    "unique_partitions": 6520,
+    "micro_round_records": 14666
+  },
+  "transformations": [
+    "Report corpora and all eight frozen vector files retain their original bytes.",
+    "Frozen start-state report content, order, vectors and partitions are preserved; source locators and record identifiers are normalized and redundant integrity metadata omitted.",
+    "Partition groups retain original group and member ordering; identical stored partitions appear once and use opaque lookup IDs.",
+    "Model names are normalized consistently in run records, file names and archive locators.",
+    "Only current main runs, exact query-matched control endpoints, 16 paper A3S endpoints and 8 selected pipeline endpoints are included.",
+    "Judgment streams retain pair IDs, status, labels, selection stage/category/micro-round and p_same_before, usage and response-reuse flags through 5%; free-text reasons and raw requests/responses are omitted.",
+    "All micro-round states through 5% are retained; after 5%, only the reported budget checkpoints through 10% are included.",
+    "Historical reference scores are excluded; expected scores use the complete current reference."
+  ],
+  "known_scope": [
+    "The complete LLM initialization menu-construction source, actual menu instances and original four preparation manifests are not available.",
+    "Exact runtime configurations for the 16 paper A3S endpoints are not available; these endpoints are not replaced with the different 48-run supplement.",
+    "Pair-judgment streams are provided through 5%; main partitions and cumulative usage extend through 10%.",
+    "Historical JAYME matched-control endpoint records do not carry equivalent per-endpoint cumulative usage; these fields remain null.",
+    "Recorded cumulative usage is per logical exposure, including response reuse; it is not an incremental API billing claim."
+  ],
+  "files": [
+    {
+      "path": "data/DATA_FORMAT.md",
+      "bytes": 6399
+    },
+    {
+      "path": "data/initializations/huawei/I_hc/start_state.json",
+      "bytes": 98432
+    },
+    {
+      "path": "data/initializations/huawei/I_hc/tfidf_vectors.npz",
+      "bytes": 106882
+    },
+    {
+      "path": "data/initializations/huawei/I_llm/start_state.json",
+      "bytes": 93756
+    },
+    {
+      "path": "data/initializations/huawei/I_llm/tfidf_vectors.npz",
+      "bytes": 106882
+    },
+    {
+      "path": "data/initializations/hujiang/I_hc/start_state.json",
+      "bytes": 117144
+    },
+    {
+      "path": "data/initializations/hujiang/I_hc/tfidf_vectors.npz",
+      "bytes": 139745
+    },
+    {
+      "path": "data/initializations/hujiang/I_llm/start_state.json",
+      "bytes": 110312
+    },
+    {
+      "path": "data/initializations/hujiang/I_llm/tfidf_vectors.npz",
+      "bytes": 139745
+    },
+    {
+      "path": "data/initializations/ielts/I_hc/start_state.json",
+      "bytes": 125305
+    },
+    {
+      "path": "data/initializations/ielts/I_hc/tfidf_vectors.npz",
+      "bytes": 92900
+    },
+    {
+      "path": "data/initializations/ielts/I_llm/start_state.json",
+      "bytes": 110461
+    },
+    {
+      "path": "data/initializations/ielts/I_llm/tfidf_vectors.npz",
+      "bytes": 92900
+    },
+    {
+      "path": "data/initializations/jayme/I_hc/start_state.json",
+      "bytes": 303163
+    },
+    {
+      "path": "data/initializations/jayme/I_hc/tfidf_vectors.npz",
+      "bytes": 294989
+    },
+    {
+      "path": "data/initializations/jayme/I_llm/start_state.json",
+      "bytes": 274657
+    },
+    {
+      "path": "data/initializations/jayme/I_llm/tfidf_vectors.npz",
+      "bytes": 294989
+    },
+    {
+      "path": "data/initializations/manifest.json",
+      "bytes": 3663
+    },
+    {
+      "path": "data/partitions.jsonl.gz",
+      "bytes": 4189588
+    },
+    {
+      "path": "data/reference/huawei.json",
+      "bytes": 10536
+    },
+    {
+      "path": "data/reference/hujiang.json",
+      "bytes": 9981
+    },
+    {
+      "path": "data/reference/ielts.json",
+      "bytes": 20249
+    },
+    {
+      "path": "data/reference/jayme.json",
+      "bytes": 34184
+    },
+    {
+      "path": "data/reference/manifest.json",
+      "bytes": 501
+    },
+    {
+      "path": "data/report_order.json",
+      "bytes": 34548
+    },
+    {
+      "path": "data/reports/huawei.json",
+      "bytes": 55654
+    },
+    {
+      "path": "data/reports/hujiang.json",
+      "bytes": 67702
+    },
+    {
+      "path": "data/reports/ielts.json",
+      "bytes": 59041
+    },
+    {
+      "path": "data/reports/jayme.json",
+      "bytes": 172525
+    },
+    {
+      "path": "data/verify_data.py",
+      "bytes": 8652
+    },
+    {
+      "path": "runs/baselines/endpoints.jsonl",
+      "bytes": 17111
+    },
+    {
+      "path": "runs/controls/endpoints.jsonl",
+      "bytes": 237060
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 62056
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 54600
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 62676
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 54405
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 56972
+    },
+    {
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 53068
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 59888
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52270
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 59775
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 53109
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 59945
+    },
+    {
+      "path": "runs/judgments/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52097
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 79389
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 72401
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 79502
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 70253
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 79462
+    },
+    {
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 70631
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 68852
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 68993
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 69419
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 68459
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 69161
+    },
+    {
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 68958
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 123112
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 111136
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 123104
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 109918
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 124325
+    },
+    {
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 111824
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 109390
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 110874
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 113148
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 108860
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 109129
+    },
+    {
+      "path": "runs/judgments/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 110372
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 579458
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561924
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 579316
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561474
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 579493
+    },
+    {
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561815
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 580760
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 561406
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 580826
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 560704
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 585645
+    },
+    {
+      "path": "runs/judgments/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 552591
+    },
+    {
+      "path": "runs/main/checkpoints.jsonl",
+      "bytes": 678513
+    },
+    {
+      "path": "runs/main/index.json",
+      "bytes": 41229
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5798
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5813
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5894
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5912
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5624
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5795
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5688
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5639
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5764
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5776
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 5774
+    },
+    {
+      "path": "runs/main/micro_rounds/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 5667
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7376
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7269
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7415
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7418
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7361
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7351
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7418
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7341
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7417
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7416
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 7241
+    },
+    {
+      "path": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 7400
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 11031
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 11078
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10982
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 11203
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 11111
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 11210
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10739
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 10923
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10676
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 10896
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 10835
+    },
+    {
+      "path": "runs/main/micro_rounds/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 10895
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51761
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52171
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51738
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52081
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51632
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52080
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 52063
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 52243
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 52016
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 51746
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "bytes": 51853
+    },
+    {
+      "path": "runs/main/micro_rounds/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "bytes": 51922
+    }
+  ],
+  "model_metadata_note": "Model metadata is normalized to the author-confirmed Qwen3.5 and DeepSeek-v4 backends. These metadata corrections do not alter labels, partitions, queries, usage or seeds."
+}

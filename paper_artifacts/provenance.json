@@ -1,0 +1,126 @@
+[
+  {
+    "published": "reproduce/build_tables.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "reproduce/common.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "reproduce/plot_case.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "reproduce/plot_rq1.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "reproduce/plot_rq2.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "reproduce/plot_rq3.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "reproduce/plot_rq4.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "reproduce/table_uncertainty.py",
+    "transformation": "Package-relative paths and isolated generated outputs; published record identifiers and file metadata; structural and numerical validation, including recomputation of saved intervals."
+  },
+  {
+    "published": "paper_artifacts/data/run_metric_diffs.csv",
+    "transformation": "Removed local source paths and repeated audit prose columns; numerical, run, partition-identifier and status fields unchanged. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/data/configuration_diffs.csv",
+    "transformation": "Unchanged. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/data/rq2_overall_diffs.csv",
+    "transformation": "Removed local source paths and repeated audit prose columns; numerical, run, partition-identifier and status fields unchanged. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/data/label_statistics.csv",
+    "transformation": "Unchanged. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/data/source_coverage.json",
+    "transformation": "Retained required control and external-baseline coverage; redundant local audit paths omitted. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/data/external_baselines.json",
+    "transformation": "Replaced private archive paths with package endpoint IDs; selection procedure, settings and all measurements retained. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/data/running_case.json",
+    "transformation": "Private archive locator metadata omitted; all case reports, relations, partitions and events retained. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/data/CURRENT_REFERENCE.json",
+    "transformation": "Reference identity retained; private workbook and local file locators replaced by the package directory. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/statistics/rq2_conditional_intervals_20261003.json",
+    "transformation": "Source filenames retained for the bundled snapshots; numerical intervals, estimator and resampling specification unchanged. Saved intervals are independently recomputed during table generation. Model metadata and record identifiers normalized for distribution; scientific values retained."
+  },
+  {
+    "published": "paper_artifacts/tables/table1.tex",
+    "transformation": "Extracted only Table 1, unchanged."
+  },
+  {
+    "published": "paper_artifacts/tables/table2.tex",
+    "transformation": "Extracted only Table 2, unchanged."
+  },
+  {
+    "published": "paper_artifacts/tables/rq1.tex",
+    "transformation": "Ordinary TeX generator comments omitted; complete table body unchanged."
+  },
+  {
+    "published": "paper_artifacts/tables/rq2.tex",
+    "transformation": "Ordinary TeX generator comments omitted; complete table body unchanged."
+  },
+  {
+    "published": "paper_artifacts/tables/rq3.tex",
+    "transformation": "Ordinary TeX generator comments omitted; complete table body unchanged."
+  },
+  {
+    "published": "paper_artifacts/tables/rq4.tex",
+    "transformation": "Ordinary TeX generator comments omitted; complete table body unchanged."
+  },
+  {
+    "published": "paper_artifacts/figures/panel-1.pdf",
+    "transformation": "Unchanged current figure asset."
+  },
+  {
+    "published": "paper_artifacts/figures/panel-1_editable.svg",
+    "transformation": "Unchanged current figure asset."
+  },
+  {
+    "published": "paper_artifacts/figures/aqcc-overview.pdf",
+    "transformation": "Unchanged current figure asset."
+  },
+  {
+    "published": "paper_artifacts/figures/F1_stage_quality_and_errors.pdf",
+    "transformation": "Unchanged current figure asset."
+  },
+  {
+    "published": "paper_artifacts/figures/F2_paired_control_effects.pdf",
+    "transformation": "Unchanged current figure asset."
+  },
+  {
+    "published": "paper_artifacts/figures/F3_budget_quality_trajectories.pdf",
+    "transformation": "Unchanged current figure asset."
+  },
+  {
+    "published": "paper_artifacts/figures/F4_process_changes.pdf",
+    "transformation": "Unchanged current figure asset."
+  },
+  {
+    "published": "paper_artifacts/figures/F5_running_case.pdf",
+    "transformation": "Unchanged current figure asset."
+  }
+]

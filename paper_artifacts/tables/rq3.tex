@@ -1,0 +1,46 @@
+\begin{table}[!htbp]
+\centering
+\caption{Quality changes and logical-query counts across budget intervals.}
+\label{tab:rq3-budget}
+\begin{minipage}{\linewidth}
+\centering
+\begingroup
+\fontsize{8.5}{9.2}\selectfont
+\setlength{\tabcolsep}{1.6pt}
+\renewcommand{\arraystretch}{0.96}
+\setlength{\heavyrulewidth}{0.7pt}
+\setlength{\lightrulewidth}{0.35pt}
+\setlength{\aboverulesep}{1.4pt}
+\setlength{\belowrulesep}{1.8pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lll c S[table-format=5.1]@{\hspace{9pt}}c S[table-format=5.1]@{}}
+\toprule
+ & & & \multicolumn{2}{c}{\textbf{Qwen}} & \multicolumn{2}{c}{\textbf{DeepSeek}} \\
+\cmidrule(lr){4-5}\cmidrule(l){6-7}
+\textbf{Dataset} & \textbf{Start} & \textbf{Budget} & $\Delta$ARI (mean $\pm$ SD) & $\Delta q$ & $\Delta$ARI (mean $\pm$ SD) & $\Delta q$ \\
+\midrule
+\multirow[t]{4}{*}{JAYME} & \multirow[t]{2}{*}{LLM} & 0--5\% & \textbf{+0.6664}\,$\pm$\,0.0057 & 13,004.7 & \textbf{+0.6695}\,$\pm$\,0.0052 & 13,003.7 \\
+ &  & 5--10\% & \underline{-0.0086}\,$\pm$\,0.0014 & 13,024.3 & \underline{-0.0073}\,$\pm$\,0.0051 & 13,025.3 \\
+ & \multirow[t]{2}{*}{HC} & 0--5\% & \textbf{+0.7374}\,$\pm$\,0.0071 & 13,005.7 & \textbf{+0.7415}\,$\pm$\,0.0055 & 13,009.7 \\
+ &  & 5--10\% & \underline{-0.0084}\,$\pm$\,0.0051 & 13,023.3 & \underline{-0.0056}\,$\pm$\,0.0044 & 13,019.3 \\
+\addlinespace[2.5pt]
+\multirow[t]{4}{*}{IELTS} & \multirow[t]{2}{*}{LLM} & 0--5\% & \textbf{+0.3937}\,$\pm$\,0.0071 & 2,786.3 & \textbf{+0.4281}\,$\pm$\,0.0334 & 2,789.7 \\
+ &  & 5--10\% & \underline{-0.0095}\,$\pm$\,0.0079 & 2,808.7 & +0.0042\,$\pm$\,0.0063 & 2,805.3 \\
+ & \multirow[t]{2}{*}{HC} & 0--5\% & \textbf{+0.4873}\,$\pm$\,0.0196 & 2,790.3 & \textbf{+0.4962}\,$\pm$\,0.0231 & 2,791.0 \\
+ &  & 5--10\% & \underline{-0.0069}\,$\pm$\,0.0059 & 2,804.7 & \underline{-0.0080}\,$\pm$\,0.0054 & 2,804.0 \\
+\addlinespace[2.5pt]
+\multirow[t]{4}{*}{HUJIANG} & \multirow[t]{2}{*}{LLM} & 0--5\% & \textbf{+0.3815}\,$\pm$\,0.0385 & 1,776.0 & \textbf{+0.3406}\,$\pm$\,0.0309 & 1,783.3 \\
+ &  & 5--10\% & \underline{-0.0051}\,$\pm$\,0.0076 & 1,802.0 & \underline{-0.0138}\,$\pm$\,0.0042 & 1,794.7 \\
+ & \multirow[t]{2}{*}{HC} & 0--5\% & \textbf{+0.4531}\,$\pm$\,0.0892 & 1,780.3 & \textbf{+0.4328}\,$\pm$\,0.0342 & 1,779.0 \\
+ &  & 5--10\% & \underline{-0.0040}\,$\pm$\,0.0034 & 1,797.7 & +0.0263\,$\pm$\,0.0171 & 1,799.0 \\
+\addlinespace[2.5pt]
+\multirow[t]{4}{*}{HUAWEI} & \multirow[t]{2}{*}{LLM} & 0--5\% & \textbf{+0.2481}\,$\pm$\,0.0772 & 1,450.0 & \textbf{+0.0948}\,$\pm$\,0.0549 & 1,446.7 \\
+ &  & 5--10\% & \underline{-0.0573}\,$\pm$\,0.0559 & 1,467.0 & \underline{-0.0380}\,$\pm$\,0.0255 & 1,470.3 \\
+ & \multirow[t]{2}{*}{HC} & 0--5\% & \textbf{+0.3200}\,$\pm$\,0.0436 & 1,449.0 & \textbf{+0.1923}\,$\pm$\,0.0369 & 1,449.7 \\
+ &  & 5--10\% & \underline{-0.0016}\,$\pm$\,0.0287 & 1,468.0 & +0.0013\,$\pm$\,0.0013 & 1,467.3 \\
+\bottomrule
+\end{tabular*}
+\endgroup
+\par\vspace{2pt}
+{\fontsize{8}{9.2}\selectfont\raggedright $\Delta$ARI: mean $\pm$ sample SD of three within-run changes; $\Delta q$: mean additional queries. The $0$--$5\%$ interval includes probing. Bold: positive $0$--$5\%$ means; underlining: negative $5$--$10\%$ means.\par}
+\end{minipage}
+\end{table}

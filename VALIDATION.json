@@ -1,0 +1,313 @@
+{
+  "status": "offline_checks_pass_with_declared_source_gaps",
+  "date": "2026-10-14",
+  "scope": "Validation of this distributed snapshot; no new model calls and no claim of exact online replay.",
+  "data": {
+    "reports": 1567,
+    "frozen_initializations": 8,
+    "main_runs": 48,
+    "main_checkpoint_rows": 672,
+    "controls": 240,
+    "A3S": 16,
+    "selected_pipelines": 8,
+    "judgment_rows": 228285,
+    "unique_partitions": 6520,
+    "micro_round_records": 14666
+  },
+  "scores": {
+    "status": "PASS",
+    "reports": 1567,
+    "unique_partitions_scored": 6520,
+    "records": {
+      "main": 672,
+      "controls": 240,
+      "baselines": 24
+    },
+    "record_metric_comparisons": 12176,
+    "derived_score_rows_checked": 13936,
+    "matched_control_queries": 240,
+    "external_records": 24,
+    "inputs": [
+      "data/reference/jayme.json",
+      "data/reference/ielts.json",
+      "data/reference/hujiang.json",
+      "data/reference/huawei.json",
+      "data/partitions.jsonl.gz",
+      "runs/main/checkpoints.jsonl",
+      "runs/controls/endpoints.jsonl",
+      "runs/baselines/endpoints.jsonl"
+    ],
+    "scope": "Fixed partition metrics and recorded score consistency. This does not independently validate semantic reference labels or rerun LLM experiments."
+  },
+  "confidence_intervals": {
+    "status": "PASS",
+    "actual_query_matches": 240,
+    "paired_score_differences": 480,
+    "intervals": [
+      {
+        "control": "AQCC_CONST",
+        "metric": "ari",
+        "mean": 0.0700030599124296,
+        "ci_low": 0.058206721744021236,
+        "ci_high": 0.08248058118928449
+      },
+      {
+        "control": "AQCC_CONST",
+        "metric": "b3_f1",
+        "mean": 0.02945821996912862,
+        "ci_low": 0.027220854170003295,
+        "ci_high": 0.03176820244327617
+      },
+      {
+        "control": "AQCC_TEXT",
+        "metric": "ari",
+        "mean": 0.050714770795510074,
+        "ci_low": 0.04083990960356249,
+        "ci_high": 0.06092028445209977
+      },
+      {
+        "control": "AQCC_TEXT",
+        "metric": "b3_f1",
+        "mean": 0.02956857418352846,
+        "ci_low": 0.026822981354936264,
+        "ci_high": 0.03237329857868851
+      },
+      {
+        "control": "AQCC_RANDOM",
+        "metric": "ari",
+        "mean": 0.2798477799970508,
+        "ci_low": 0.26839482226372635,
+        "ci_high": 0.29190443129655386
+      },
+      {
+        "control": "AQCC_RANDOM",
+        "metric": "b3_f1",
+        "mean": 0.07984209250994613,
+        "ci_low": 0.0779358548688978,
+        "ci_high": 0.08167300231199766
+      },
+      {
+        "control": "FROZEN_LR",
+        "metric": "ari",
+        "mean": 0.06485975864885236,
+        "ci_low": 0.055209471880848675,
+        "ci_high": 0.07507165174925491
+      },
+      {
+        "control": "FROZEN_LR",
+        "metric": "b3_f1",
+        "mean": 0.02649589891627785,
+        "ci_low": 0.02456153085461854,
+        "ci_high": 0.028455341210017186
+      },
+      {
+        "control": "FROZEN_PLAN",
+        "metric": "ari",
+        "mean": 0.1906378719445133,
+        "ci_low": 0.17607402425598156,
+        "ci_high": 0.20570091666812568
+      },
+      {
+        "control": "FROZEN_PLAN",
+        "metric": "b3_f1",
+        "mean": 0.05780767802894075,
+        "ci_low": 0.054831635705132976,
+        "ci_high": 0.06086341096394733
+      }
+    ],
+    "numpy_version": "2.4.3",
+    "method": {
+      "estimator": "Mean of within-configuration mean paired differences; all 16 configurations weighted equally",
+      "interval": "percentile",
+      "confidence_level": 0.95,
+      "coverage": "pointwise marginal, not simultaneous",
+      "scope": "Conditional on the fixed four datasets, two backends and two starting partitions",
+      "resampling": "Within each dataset/backend stratum, sample three repetition response blocks with replacement, retaining both starts and all controls/metrics jointly",
+      "datasets": [
+        "jayme",
+        "ielts",
+        "hujiang",
+        "huawei"
+      ],
+      "backends": [
+        "qwen3.5-flash",
+        "deepseek-v4-flash"
+      ],
+      "starts": [
+        "LLM",
+        "HC"
+      ],
+      "repetitions": [
+        1,
+        2,
+        3
+      ],
+      "strata": 8,
+      "blocks_per_stratum": 3,
+      "draws": 200000,
+      "seed": 20261003,
+      "generator": "PCG64",
+      "quantile_method": "linear",
+      "numpy_version": "1.26.4",
+      "small_sample_limit": "Three observed repeats per stratum; nominal coverage calibration is limited; not cross-dataset generalization"
+    }
+  },
+  "paper_outputs": {
+    "result_tables": 4,
+    "result_figures": 5,
+    "matching_plot_data_files": 9,
+    "static_assets": "Tables 1-2 and Figures 1-2",
+    "pdf_byte_identity_claimed": false
+  },
+  "selected_pipeline_reconstruction": {
+    "partitions": 8,
+    "identical_memberships": 8,
+    "metric_differences": 0
+  },
+  "code_checks": {
+    "python_ast_parsed": 50,
+    "remaining_comment_tokens": 0,
+    "offline_run_checks": 8,
+    "runtime_flavors_imported": 2,
+    "api_calls": 0,
+    "all_distribution_python_files_parsed": 63,
+    "all_distribution_python_comment_tokens": 0
+  },
+  "isolated_checks": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "verify_manifest.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "data/verify_data.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "reproduce/verify_scores.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "reproduce/verify_ci.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "reproduce/build_paper.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "code/baselines/offline_selected.py",
+        "--output",
+        "generated/selected_reconstruction"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "code/favr/run_registered.py",
+        "--job",
+        "jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "independent_content_review": {
+    "judgment_outcomes_retained": {
+      "('SUCCESS', 'DIFFERENT')": 173770,
+      "('SUCCESS', 'SAME')": 53542,
+      "('FAILED_PROTOCOL', None)": 945,
+      "('FAILED_TRANSPORT_UNCERTAIN', None)": 28
+    },
+    "five_to_ten_percent_configuration_changes_retained": {
+      "ari_decreased": 13,
+      "b3_f1_decreased": 16,
+      "pair_fp_increased": 16,
+      "ari_increased": 3
+    },
+    "scope": "Numerical results and retained outcomes pass; the source-record gaps listed below remain. Current metadata names do not independently establish provider identity."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "pandas": "3.0.1",
+    "jieba": "0.42.1",
+    "requests": "2.32.5",
+    "openpyxl": "3.1.5",
+    "pypdf": "6.14.2",
+    "PyMuPDF": null
+  },
+  "packaging": {
+    "personal_path_and_secret_pattern_scan": "Current artifact text and compressed JSON records inspected; no credentials or personal filesystem paths included. Pattern scans are not exhaustive.",
+    "source_manuscript_and_current_reference_results_unchanged": true
+  },
+  "unavailable_original_materials": [
+    "Original LLM initialization menu constructor, instances, dedicated prompt/schema/validator, and preparation manifests.",
+    "Exact original per-run configurations and bindings for the 16 A3S endpoints used in the paper."
+  ],
+  "metadata_revision": {
+    "model_names": [
+      "Qwen3.5",
+      "DeepSeek-v4"
+    ],
+    "reference_id": "FULL_REFERENCE_20260928",
+    "public_identifiers": "Opaque record identifiers; file inventory contains paths and sizes.",
+    "scientific_values_preserved": {
+      "run_files_compared": 100,
+      "run_records_compared": 243935,
+      "partitions_unchanged": 6520,
+      "reports_unchanged": 1567,
+      "initializations_unchanged": 8,
+      "run_configs_and_seeds_unchanged": 288,
+      "numeric_csv_cells_unchanged": 265733,
+      "text_files_scanned": 222,
+      "python_files_parsed": 63
+    }
+  },
+  "runtime_revision_checks": {
+    "registered_jobs": 288,
+    "explicit_seeds_preserved": true,
+    "all_numeric_configuration_fields_preserved": true,
+    "upstream_partitions_preserved": 24,
+    "selected_baselines_membership_and_metrics_passed": 8,
+    "runtime_families": 2,
+    "frozen_start_loads_per_family": 8,
+    "backend_constructors_per_family": 2,
+    "provider_calls": 0,
+    "algorithm_source_ast_unchanged_files": 44,
+    "adapted_python_files": [
+      "code\\baselines\\offline_selected.py",
+      "code\\favr\\run_registered.py",
+      "code\\favr\\deepseek_v4_flash\\aqcc_final\\data.py",
+      "code\\favr\\deepseek_v4_flash\\aqcc_final\\silra_transport_v2.py",
+      "code\\favr\\qwen35\\aqcc_final\\data.py",
+      "code\\favr\\qwen35\\aqcc_final\\silra_transport_v2.py"
+    ]
+  }
+}

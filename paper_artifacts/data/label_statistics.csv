@@ -1,0 +1,5 @@
+dataset,labels_changed,same_relations_added,same_relations_removed,equivalent_partition,before_n,before_gold_groups,before_singletons,before_same_pairs,before_total_pairs,before_cap5,before_cap10,after_n,after_gold_groups,after_singletons,after_same_pairs,after_total_pairs,after_cap5,after_cap10
+jayme,0,0,0,True,722,243,141,3948,260281,13015,26029,722,243,141,3948,260281,13015,26029
+ielts,0,0,0,True,335,162,84,535,55945,2798,5595,335,162,84,535,55945,2798,5595
+hujiang,0,0,0,True,268,176,125,262,35778,1789,3578,268,176,125,262,35778,1789,3578
+huawei,0,0,0,True,242,200,168,58,29161,1459,2917,242,200,168,58,29161,1459,2917

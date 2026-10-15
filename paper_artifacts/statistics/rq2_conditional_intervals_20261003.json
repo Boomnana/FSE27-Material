@@ -1,0 +1,121 @@
+{
+  "schema": "favr-table-rq2-conditional-ci/v1",
+  "reference_id": "FULL_REFERENCE_20260928",
+  "source_files": {
+    "run_metric_diffs.csv": "record_002095",
+    "configuration_diffs.csv": "record_004650",
+    "rq2_overall_diffs.csv": "record_007635",
+    "CURRENT_REFERENCE.json": "record_001201"
+  },
+  "method": {
+    "estimator": "Mean of within-configuration mean paired differences; all 16 configurations weighted equally",
+    "interval": "percentile",
+    "confidence_level": 0.95,
+    "coverage": "pointwise marginal, not simultaneous",
+    "scope": "Conditional on the fixed four datasets, two backends and two starting partitions",
+    "resampling": "Within each dataset/backend stratum, sample three repetition response blocks with replacement, retaining both starts and all controls/metrics jointly",
+    "datasets": [
+      "jayme",
+      "ielts",
+      "hujiang",
+      "huawei"
+    ],
+    "backends": [
+      "qwen3.5-flash",
+      "deepseek-v4-flash"
+    ],
+    "starts": [
+      "LLM",
+      "HC"
+    ],
+    "repetitions": [
+      1,
+      2,
+      3
+    ],
+    "strata": 8,
+    "blocks_per_stratum": 3,
+    "draws": 200000,
+    "seed": 20261003,
+    "generator": "PCG64",
+    "quantile_method": "linear",
+    "numpy_version": "1.26.4",
+    "small_sample_limit": "Three observed repeats per stratum; nominal coverage calibration is limited; not cross-dataset generalization"
+  },
+  "provenance": {
+    "analysis_date": "2026-10-03",
+    "note": "Approved layout_v2 Table 4 values, retained independently of notes files for table regeneration. All ten planned control/metric contrasts are retained."
+  },
+  "records": [
+    {
+      "control": "AQCC_CONST",
+      "metric": "delta_ari",
+      "mean": 0.0700030599124296,
+      "ci_low": 0.058206721744021236,
+      "ci_high": 0.08248058118928449
+    },
+    {
+      "control": "AQCC_CONST",
+      "metric": "delta_b3_f1",
+      "mean": 0.02945821996912862,
+      "ci_low": 0.027220854170003295,
+      "ci_high": 0.03176820244327617
+    },
+    {
+      "control": "AQCC_TEXT",
+      "metric": "delta_ari",
+      "mean": 0.050714770795510074,
+      "ci_low": 0.04083990960356249,
+      "ci_high": 0.06092028445209977
+    },
+    {
+      "control": "AQCC_TEXT",
+      "metric": "delta_b3_f1",
+      "mean": 0.02956857418352846,
+      "ci_low": 0.026822981354936264,
+      "ci_high": 0.03237329857868851
+    },
+    {
+      "control": "AQCC_RANDOM",
+      "metric": "delta_ari",
+      "mean": 0.2798477799970508,
+      "ci_low": 0.26839482226372635,
+      "ci_high": 0.29190443129655386
+    },
+    {
+      "control": "AQCC_RANDOM",
+      "metric": "delta_b3_f1",
+      "mean": 0.07984209250994613,
+      "ci_low": 0.0779358548688978,
+      "ci_high": 0.08167300231199766
+    },
+    {
+      "control": "FROZEN_LR",
+      "metric": "delta_ari",
+      "mean": 0.06485975864885236,
+      "ci_low": 0.055209471880848675,
+      "ci_high": 0.07507165174925491
+    },
+    {
+      "control": "FROZEN_LR",
+      "metric": "delta_b3_f1",
+      "mean": 0.02649589891627785,
+      "ci_low": 0.02456153085461854,
+      "ci_high": 0.028455341210017186
+    },
+    {
+      "control": "FROZEN_PLAN",
+      "metric": "delta_ari",
+      "mean": 0.1906378719445133,
+      "ci_low": 0.17607402425598156,
+      "ci_high": 0.20570091666812568
+    },
+    {
+      "control": "FROZEN_PLAN",
+      "metric": "delta_b3_f1",
+      "mean": 0.05780767802894075,
+      "ci_low": 0.054831635705132976,
+      "ci_high": 0.06086341096394733
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+\begin{table}[!htbp]
+  \centering
+  \caption{Primary query-selection controls.}
+  \label{tab:rq2-controls}
+  \begingroup
+  \fontsize{8.5}{9.6}\selectfont
+  \setlength{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{1.0}
+  \setlength{\heavyrulewidth}{0.7pt}
+  \setlength{\lightrulewidth}{0.35pt}
+  \setlength{\aboverulesep}{1.4pt}
+  \setlength{\belowrulesep}{1.8pt}
+  \begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}Xl@{}}
+    \toprule
+    \textbf{Control} & \textbf{Selection change} & \textbf{Comparison} \\
+    \midrule
+    \textbf{CONST} & \textbf{Constant estimate}, $\widehat{p}_t(i,j)=0.5$.
+      & Learned vs.\ constant estimates \\
+    \addlinespace[2pt]
+    \textbf{TEXT} & Character \textbf{TF--IDF cosine similarity}.
+      & Learned vs.\ textual estimates \\
+    \addlinespace[2pt]
+    \textbf{RANDOM} & \textbf{Seeded random order} over unqueried pairs after probing.
+      & Adaptive vs.\ random selection \\
+    \bottomrule
+  \end{tabularx}
+  \endgroup
+\end{table}

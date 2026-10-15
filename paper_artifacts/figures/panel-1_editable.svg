@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="2171" height="640" viewBox="0 0 2048 604" version="1.1" style="font-family:&quot;Arial Narrow&quot;,Arial,sans-serif;font-stretch:condensed">
+  <title id="title-1">FAVR motivation: defect understanding and report grouping</title>
+  <desc id="desc-2">The original three-panel composition is retained. Panel (a) keeps its chicken-and-egg illustration and circular arrows while its wording connects defect descriptions with report grouping instead of the number K. Panels (b) and (c) depict initial attribution errors and FAVR refinement. All text and shapes are native editable SVG objects.</desc>
+  <defs id="defs-3">
+    <linearGradient id="egg-fill" x1="0%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#fbf8f0" id="stop-5" />
+      <stop offset="100%" stop-color="#e9dfcb" id="stop-6" />
+    </linearGradient>
+  </defs>
+  <g id="background" inkscape:label="background" inkscape:groupmode="layer">
+    <rect x="0" y="0" width="2048" height="604" rx="0" fill="white" stroke="none" stroke-width="1.5" id="rect-8" />
+  </g>
+  <g id="panel-1-k-grouping-dependency" transform="translate(0 -37)" inkscape:label="panel 1 k grouping dependency" inkscape:groupmode="layer">
+    <rect x="4" y="39" width="634" height="600" rx="7" fill="white" stroke="#2865b5" stroke-width="1.7" id="rect-10" />
+    <line x1="4" y1="103" x2="638" y2="103" stroke="#2865b5" stroke-width="1.7" id="line-11" />
+    <circle cx="40" cy="72" r="23" fill="#245fae" id="circle-12" />
+    <text x="40" y="82" fill="white" font-size="29" font-weight="400" text-anchor="middle" id="text-13">1</text>
+    <text x="82" y="81" fill="#192026" font-size="32" font-weight="700" text-anchor="start" id="text-14">Defect understanding and report grouping</text>
+    <text x="155" y="153" fill="#123e78" font-size="26" font-weight="700" text-anchor="middle" id="text-15">
+      <tspan x="155" dy="0" id="tspan-16">Defect descriptions</tspan>
+      <tspan x="155" dy="30" id="tspan-17">(what each defect is)</tspan>
+    </text>
+    <text x="496" y="153" fill="#123e78" font-size="26" font-weight="700" text-anchor="middle" id="text-18">
+      <tspan x="496" dy="0" id="tspan-19">Clustered reports</tspan>
+      <tspan x="496" dy="30" id="tspan-20">(by underlying defect)</tspan>
+    </text>
+    <g id="chicken-icon" transform="translate(39 205) scale(0.9354838709677419 0.848780487804878)" inkscape:label="chicken icon">
+      <g id="chicken" stroke="#171918" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+        <path id="chicken-left-foot" fill="#dca747" d="M58 162 L59 177 L59 179 C55 179 48 179 47 182 C46 185 49 185 53 185 L59 185 L68 194 C71 198 75 198 73 192 L70 186 L77 190 C83 193 85 191 81 186 C77 182 72 181 65 179 L65 163 Z" />
+        <path id="chicken-right-foot" fill="#dca747" d="M82 151 L85 168 L87 178 C83 179 79 180 78 183 C77 185 79 186 84 185 L90 185 L99 191 C106 196 106 191 102 187 L100 184 L107 186 C114 190 117 188 113 184 C109 179 105 176 94 177 L91 157 Z" />
+        <path id="chicken-back-leg" fill="#c99451" d="M78 149 C90 147 98 148 100 151 C97 159 88 165 79 161 Z" />
+        <path id="chicken-comb" fill="#ce5158" d="M91 37 C86 32 86 24 90 21 C94 18 99 19 102 22 C101 15 104 10 108 10 C114 10 116 15 116 21 C120 15 126 15 129 19 C132 24 127 32 122 37 Z" />
+        <path id="chicken-tail" fill="#d8ac6c" d="M34 91 C28 81 24 72 18 68 C13 65 8 66 10 74 C11 79 16 84 21 88 C13 83 4 80 1 87 C-2 94 6 99 14 101 C7 103 5 108 8 113 C11 118 20 121 27 118 Z" />
+        <path id="chicken-body" fill="#d8ae73" d="M32 90 C43 85 59 87 73 81 C86 75 89 60 94 45 C98 33 105 28 115 29 C129 29 138 37 139 48 C138 54 135 59 135 67 C135 80 138 95 137 110 C136 129 127 142 111 151 C101 157 90 159 80 158 C76 169 67 173 60 169 C54 165 51 161 50 155 C38 152 28 147 24 138 C16 124 15 108 20 99 C23 95 27 92 32 90 Z" />
+        <path id="chicken-body-highlight" fill="#e6c08a" stroke="none" opacity="0.72" d="M28 100 C45 93 71 92 83 81 C80 95 60 102 44 112 C34 118 29 124 28 136 C20 128 18 113 23 104 Z" />
+        <path id="chicken-belly-shadow" fill="#bd8846" stroke="none" opacity="0.3" d="M124 125 C121 136 108 147 95 151 C87 155 81 156 76 157 C96 155 120 145 128 132 Z" />
+        <path id="chicken-neck-feathers" fill="none" stroke="#b5874f" stroke-width="2.6" d="M87 79 C84 88 88 94 102 88 C103 99 111 105 121 93 M126 94 C130 101 136 103 137 95" />
+        <path id="chicken-wing" fill="#dcb176" d="M57 100 C52 104 40 111 38 112 C27 118 38 125 45 124 C38 128 38 135 46 138 C56 143 70 143 83 137 C94 132 101 119 96 101" />
+        <path id="chicken-wing-feather-1" fill="none" stroke="#c09257" stroke-width="3.3" opacity="0.5" d="M37 121 C42 123 47 121 52 118" />
+        <path id="chicken-wing-feather-2" fill="none" stroke="#c09257" stroke-width="4.1" opacity="0.5" d="M57 137 L61 132" />
+        <path id="chicken-beak" fill="#e2b450" d="M137 48 C141 48 150 52 152 55 C154 57 150 58 145 59 L136 62 C132 63 130 60 131 56 C131 52 133 49 137 48 Z" />
+        <path id="chicken-wattle" fill="#d24d59" d="M134 61 C138 66 144 75 139 82 C136 86 131 85 127 81 C124 76 127 68 134 61 Z" />
+        <ellipse id="chicken-eye-white" cx="120" cy="49" rx="5.3" ry="6.4" fill="#ffffff" stroke="none" />
+        <ellipse id="chicken-eye-pupil" cx="120.8" cy="49.2" rx="3.2" ry="4.1" fill="#11161a" stroke="none" />
+      </g>
+    </g>
+    <g id="egg-icon" inkscape:label="egg icon">
+      <path d="M 510 219 C 486 219 464 262 456 295 C 446 338 459 368 494 374 C 529 379 558 359 561 329 C 565 301 553 266 539 244 C 528 226 519 219 510 219 Z" stroke="#22221e" fill="url(#egg-fill)" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round" id="path-23" />
+      <path d="M 465 290 C 461 323 469 344 492 349 C 520 355 540 337 547 308 C 550 334 537 359 512 366 C 484 370 458 350 457 323 Z" stroke="none" fill="#e7ddc8" stroke-width="0" stroke-linejoin="round" stroke-linecap="round" id="path-24" />
+      <ellipse cx="486" cy="252" rx="9" ry="22" fill="white" transform="rotate(28 486 252)" id="ellipse-25" />
+    </g>
+    <g id="k-to-clustered-reports-arrow" inkscape:label="k to clustered reports arrow">
+      <path d="M 203 265 C 263 166 354 184 414 249" stroke="#2865b5" fill="none" stroke-width="5.8" stroke-linejoin="round" stroke-linecap="round" id="path-27" />
+      <polygon points="400,249 428,262 420,232" fill="#2865b5" id="polygon-28" />
+    </g>
+    <g id="clustered-reports-to-k-arrow" inkscape:label="clustered reports to k arrow">
+      <path d="M 426 338 C 368 416 278 418 217 350" stroke="#ca8b37" fill="none" stroke-width="5.8" stroke-linejoin="round" stroke-linecap="round" id="path-30" />
+      <polygon points="211,370 206,337 236,348" fill="#ca8b37" id="polygon-31" />
+    </g>
+    <text x="310" y="304" fill="#192026" font-size="26" font-weight="700" text-anchor="middle" id="text-32">
+      <tspan x="310" dy="0" id="tspan-33">A chicken-and-egg</tspan>
+      <tspan x="310" dy="26" id="tspan-34">problem</tspan>
+    </text>
+    <rect x="22" y="399" width="243" height="123" rx="9" fill="#fffcfc" stroke="#ba4348" stroke-width="1.5" id="rect-35" />
+    <text x="143" y="428" fill="#8a2427" font-size="24" font-weight="400" text-anchor="middle" id="text-36">
+      <tspan x="143" dy="0" id="tspan-37">To group reports,</tspan>
+      <tspan x="143" dy="26" id="tspan-38">we need to understand</tspan>
+      <tspan x="143" dy="26" id="tspan-39">which defects</tspan>
+      <tspan x="143" dy="26" id="tspan-40">they describe.</tspan>
+    </text>
+    <rect x="380" y="399" width="240" height="123" rx="9" fill="white" stroke="#2865b5" stroke-width="1.5" id="rect-41" />
+    <text x="500" y="428" fill="#123e78" font-size="24" font-weight="400" text-anchor="middle" id="text-42">
+      <tspan x="500" dy="0" id="tspan-43">To understand defects,</tspan>
+      <tspan x="500" dy="26" id="tspan-44">we compare reports</tspan>
+      <tspan x="500" dy="26" id="tspan-45">within candidate</tspan>
+      <tspan x="500" dy="26" id="tspan-46">groups.</tspan>
+    </text>
+    <rect x="22" y="552" width="598" height="74" rx="8" fill="#fdfafa" stroke="#c6a9ac" stroke-width="1.3" id="rect-47" />
+    <text x="321" y="581" fill="#85252a" font-size="27" font-weight="700" text-anchor="middle" id="text-48">
+      <tspan x="321" dy="0" id="tspan-49">Defect understanding guides grouping;</tspan>
+      <tspan x="321" dy="29" id="tspan-50">grouping refines defect understanding.</tspan>
+    </text>
+  </g>
+  <g id="panel-2-attribution-errors" transform="translate(0 -37)" inkscape:label="panel 2 attribution errors" inkscape:groupmode="layer">
+    <rect x="650" y="39" width="755" height="600" rx="7" fill="white" stroke="#2865b5" stroke-width="1.7" id="rect-52" />
+    <line x1="650" y1="103" x2="1405" y2="103" stroke="#2865b5" stroke-width="1.7" id="line-53" />
+    <circle cx="686" cy="72" r="23" fill="#245fae" id="circle-54" />
+    <text x="686" y="82" fill="white" font-size="29" font-weight="400" text-anchor="middle" id="text-55">2</text>
+    <text x="728" y="81" fill="#192026" font-size="30" font-weight="700" text-anchor="start" id="text-56">Initial clustering is a hypothesis, not the final answer</text>
+    <rect x="666" y="187" width="155" height="237" rx="8" fill="white" stroke="#2865b5" stroke-width="1.6" id="rect-57" />
+    <g id="input-report-1" inkscape:label="input report 1">
+      <rect x="676" y="198" width="46" height="59" rx="1.5" fill="white" stroke="#2865b5" stroke-width="1.8" id="rect-59" />
+      <line x1="686" y1="215" x2="711" y2="215" stroke="#2865b5" stroke-width="2" id="line-60" />
+      <line x1="686" y1="224" x2="711" y2="224" stroke="#2865b5" stroke-width="2" id="line-61" />
+      <line x1="686" y1="233" x2="711" y2="233" stroke="#2865b5" stroke-width="2" id="line-62" />
+      <line x1="686" y1="242" x2="711" y2="242" stroke="#2865b5" stroke-width="2" id="line-63" />
+    </g>
+    <g id="input-report-2" inkscape:label="input report 2">
+      <rect x="750" y="198" width="46" height="59" rx="1.5" fill="white" stroke="#ba4348" stroke-width="1.8" id="rect-65" />
+      <line x1="760" y1="215" x2="785" y2="215" stroke="#ba4348" stroke-width="2" id="line-66" />
+      <line x1="760" y1="224" x2="785" y2="224" stroke="#ba4348" stroke-width="2" id="line-67" />
+      <line x1="760" y1="233" x2="785" y2="233" stroke="#ba4348" stroke-width="2" id="line-68" />
+      <line x1="760" y1="242" x2="785" y2="242" stroke="#ba4348" stroke-width="2" id="line-69" />
+    </g>
+    <g id="input-report-3" inkscape:label="input report 3">
+      <rect x="706" y="230" width="46" height="59" rx="1.5" fill="white" stroke="#157e79" stroke-width="1.8" id="rect-71" />
+      <line x1="716" y1="247" x2="741" y2="247" stroke="#157e79" stroke-width="2" id="line-72" />
+      <line x1="716" y1="256" x2="741" y2="256" stroke="#157e79" stroke-width="2" id="line-73" />
+      <line x1="716" y1="265" x2="741" y2="265" stroke="#157e79" stroke-width="2" id="line-74" />
+      <line x1="716" y1="274" x2="741" y2="274" stroke="#157e79" stroke-width="2" id="line-75" />
+    </g>
+    <g id="input-report-4" inkscape:label="input report 4">
+      <rect x="764" y="231" width="46" height="59" rx="1.5" fill="white" stroke="#ba4348" stroke-width="1.8" id="rect-77" />
+      <line x1="774" y1="248" x2="799" y2="248" stroke="#ba4348" stroke-width="2" id="line-78" />
+      <line x1="774" y1="257" x2="799" y2="257" stroke="#ba4348" stroke-width="2" id="line-79" />
+      <line x1="774" y1="266" x2="799" y2="266" stroke="#ba4348" stroke-width="2" id="line-80" />
+      <line x1="774" y1="275" x2="799" y2="275" stroke="#ba4348" stroke-width="2" id="line-81" />
+    </g>
+    <g id="input-report-5" inkscape:label="input report 5">
+      <rect x="677" y="286" width="46" height="59" rx="1.5" fill="white" stroke="#ca8b37" stroke-width="1.8" id="rect-83" />
+      <line x1="687" y1="303" x2="712" y2="303" stroke="#ca8b37" stroke-width="2" id="line-84" />
+      <line x1="687" y1="312" x2="712" y2="312" stroke="#ca8b37" stroke-width="2" id="line-85" />
+      <line x1="687" y1="321" x2="712" y2="321" stroke="#ca8b37" stroke-width="2" id="line-86" />
+      <line x1="687" y1="330" x2="712" y2="330" stroke="#ca8b37" stroke-width="2" id="line-87" />
+    </g>
+    <g id="input-report-6" inkscape:label="input report 6">
+      <rect x="748" y="299" width="46" height="59" rx="1.5" fill="white" stroke="#2865b5" stroke-width="1.8" id="rect-89" />
+      <line x1="758" y1="316" x2="783" y2="316" stroke="#2865b5" stroke-width="2" id="line-90" />
+      <line x1="758" y1="325" x2="783" y2="325" stroke="#2865b5" stroke-width="2" id="line-91" />
+      <line x1="758" y1="334" x2="783" y2="334" stroke="#2865b5" stroke-width="2" id="line-92" />
+      <line x1="758" y1="343" x2="783" y2="343" stroke="#2865b5" stroke-width="2" id="line-93" />
+    </g>
+    <g id="input-report-7" inkscape:label="input report 7">
+      <rect x="677" y="355" width="46" height="59" rx="1.5" fill="white" stroke="#2865b5" stroke-width="1.8" id="rect-95" />
+      <line x1="687" y1="372" x2="712" y2="372" stroke="#2865b5" stroke-width="2" id="line-96" />
+      <line x1="687" y1="381" x2="712" y2="381" stroke="#2865b5" stroke-width="2" id="line-97" />
+      <line x1="687" y1="390" x2="712" y2="390" stroke="#2865b5" stroke-width="2" id="line-98" />
+      <line x1="687" y1="399" x2="712" y2="399" stroke="#2865b5" stroke-width="2" id="line-99" />
+    </g>
+    <g id="input-report-8" inkscape:label="input report 8">
+      <rect x="764" y="355" width="46" height="59" rx="1.5" fill="white" stroke="#8552b8" stroke-width="1.8" id="rect-101" />
+      <line x1="774" y1="372" x2="799" y2="372" stroke="#8552b8" stroke-width="2" id="line-102" />
+      <line x1="774" y1="381" x2="799" y2="381" stroke="#8552b8" stroke-width="2" id="line-103" />
+      <line x1="774" y1="390" x2="799" y2="390" stroke="#8552b8" stroke-width="2" id="line-104" />
+      <line x1="774" y1="399" x2="799" y2="399" stroke="#8552b8" stroke-width="2" id="line-105" />
+    </g>
+    <text x="733" y="382" fill="#67737c" font-size="21" font-weight="400" text-anchor="start" id="text-106">...</text>
+    <text x="675" y="454" fill="#123e78" font-size="26" font-weight="700" text-anchor="start" id="text-107">Crowdsourced reports</text>
+    <text x="671" y="485" fill="#192026" font-size="23" font-weight="400" text-anchor="start" font-style="italic" id="text-108">"payment failed ..."</text>
+    <text x="671" y="512" fill="#7f858c" font-size="22" font-weight="400" text-anchor="start" font-style="italic" id="text-109">
+      <tspan x="671" dy="0" id="tspan-110">"double charged ..."</tspan>
+      <tspan x="671" dy="25" id="tspan-111">"order cancel ..."</tspan>
+      <tspan x="671" dy="25" id="tspan-112">"refund not received ..."</tspan>
+      <tspan x="671" dy="25" id="tspan-113">...</tspan>
+    </text>
+    <text x="872" y="272" fill="#123e78" font-size="24" font-weight="700" text-anchor="middle" id="text-114">
+      <tspan x="872" dy="0" id="tspan-115">Initial</tspan>
+      <tspan x="872" dy="26" id="tspan-116">clustering</tspan>
+      <tspan x="872" dy="26" id="tspan-117">(e.g., LLM)</tspan>
+    </text>
+    <g id="initial-clustering-arrow" inkscape:label="initial clustering arrow">
+      <path d="M 835 352 H 888" stroke="#93999e" fill="none" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" id="path-119" />
+      <polygon points="885,342 906,352 885,363" fill="#93999e" id="polygon-120" />
+    </g>
+    <g id="initial-cluster-1" inkscape:label="initial cluster 1">
+      <ellipse cx="1011" cy="221" rx="91" ry="65" fill="none" stroke="#2865b5" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-122" />
+      <text x="1011" y="153" fill="#123e78" font-size="24" font-weight="700" text-anchor="middle" id="text-123">Cluster 1</text>
+      <g id="cluster-1-report-1" transform="translate(947 204)" inkscape:label="cluster 1 report 1">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-125" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-126" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#2865b5" stroke-width="1.7" id="line-127" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#2865b5" stroke-width="1.7" id="line-128" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#2865b5" stroke-width="1.7" id="line-129" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#2865b5" stroke-width="1.7" id="line-130" />
+      </g>
+      <g id="cluster-1-report-2" transform="translate(991 180)" inkscape:label="cluster 1 report 2">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#157e79" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-132" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#157e79" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-133" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#157e79" stroke-width="1.7" id="line-134" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#157e79" stroke-width="1.7" id="line-135" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#157e79" stroke-width="1.7" id="line-136" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#157e79" stroke-width="1.7" id="line-137" />
+      </g>
+      <g id="cluster-1-report-3" transform="translate(1032 211)" inkscape:label="cluster 1 report 3">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#ba4348" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-139" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#ba4348" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-140" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#ba4348" stroke-width="1.7" id="line-141" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#ba4348" stroke-width="1.7" id="line-142" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#ba4348" stroke-width="1.7" id="line-143" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#ba4348" stroke-width="1.7" id="line-144" />
+      </g>
+      <text x="992" y="266" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-145">...</text>
+      <text x="1073" y="247" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-146">...</text>
+    </g>
+    <g id="initial-cluster-2" inkscape:label="initial cluster 2">
+      <ellipse cx="1011" cy="367" rx="91" ry="70" fill="none" stroke="#ca8b37" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-148" />
+      <text x="1011" y="327" fill="#ca8b37" font-size="24" font-weight="700" text-anchor="middle" id="text-149">Cluster 2</text>
+      <g id="cluster-2-report-1" transform="translate(949 348)" inkscape:label="cluster 2 report 1">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#ca8b37" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-151" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#ca8b37" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-152" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#ca8b37" stroke-width="1.7" id="line-153" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#ca8b37" stroke-width="1.7" id="line-154" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#ca8b37" stroke-width="1.7" id="line-155" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#ca8b37" stroke-width="1.7" id="line-156" />
+      </g>
+      <g id="cluster-2-report-2" transform="translate(991 372)" inkscape:label="cluster 2 report 2">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#8552b8" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-158" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#8552b8" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-159" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#8552b8" stroke-width="1.7" id="line-160" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#8552b8" stroke-width="1.7" id="line-161" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#8552b8" stroke-width="1.7" id="line-162" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#8552b8" stroke-width="1.7" id="line-163" />
+      </g>
+      <g id="cluster-2-report-3" transform="translate(1035 342)" inkscape:label="cluster 2 report 3">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-165" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-166" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#2865b5" stroke-width="1.7" id="line-167" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#2865b5" stroke-width="1.7" id="line-168" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#2865b5" stroke-width="1.7" id="line-169" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#2865b5" stroke-width="1.7" id="line-170" />
+      </g>
+      <text x="997" y="357" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-171">...</text>
+      <text x="1071" y="395" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-172">...</text>
+      <text x="1038" y="406" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-173">...</text>
+      <text x="1040" y="419" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-174">...</text>
+    </g>
+    <g id="initial-cluster-3" inkscape:label="initial cluster 3">
+      <ellipse cx="1011" cy="528" rx="91" ry="73" fill="none" stroke="#28835c" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-176" />
+      <text x="1011" y="488" fill="#28835c" font-size="24" font-weight="700" text-anchor="middle" id="text-177">Cluster 3</text>
+      <g id="cluster-3-report-1" transform="translate(949 505)" inkscape:label="cluster 3 report 1">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#28835c" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-179" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#28835c" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-180" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#28835c" stroke-width="1.7" id="line-181" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#28835c" stroke-width="1.7" id="line-182" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#28835c" stroke-width="1.7" id="line-183" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#28835c" stroke-width="1.7" id="line-184" />
+      </g>
+      <g id="cluster-3-report-2" transform="translate(990 532)" inkscape:label="cluster 3 report 2">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#ba4348" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-186" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#ba4348" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-187" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#ba4348" stroke-width="1.7" id="line-188" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#ba4348" stroke-width="1.7" id="line-189" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#ba4348" stroke-width="1.7" id="line-190" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#ba4348" stroke-width="1.7" id="line-191" />
+      </g>
+      <g id="cluster-3-report-3" transform="translate(1034 505)" inkscape:label="cluster 3 report 3">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-193" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-194" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#2865b5" stroke-width="1.7" id="line-195" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#2865b5" stroke-width="1.7" id="line-196" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#2865b5" stroke-width="1.7" id="line-197" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#2865b5" stroke-width="1.7" id="line-198" />
+      </g>
+      <text x="1002" y="519" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-199">...</text>
+      <text x="1040" y="577" fill="#697177" font-size="19" font-weight="400" text-anchor="start" id="text-200">...</text>
+    </g>
+    <line x1="1118" y1="133" x2="1118" y2="617" stroke="#2865b5" stroke-width="1.1" stroke-dasharray="3 3" id="line-201" />
+    <text x="1135" y="150" fill="#123e78" font-size="17" font-weight="700" text-anchor="start" id="text-202">But the grouping may still contain errors</text>
+    <g id="false-merge" inkscape:label="false merge">
+      <rect x="1135" y="170" width="251" height="190" rx="10" fill="#fdfbfb" stroke="#d8b9bb" stroke-width="1.4" id="rect-204" />
+      <text x="1260" y="199" fill="#89262a" font-size="27" font-weight="700" text-anchor="middle" id="text-205">False merge</text>
+      <text x="1149" y="229" fill="#192026" font-size="20.4" font-weight="400" text-anchor="start" id="text-206">
+        <tspan x="1149" dy="0" id="tspan-207">Reports from different defects</tspan>
+        <tspan x="1149" dy="24" id="tspan-208">are placed in the same group.</tspan>
+      </text>
+      <g id="false-merge-report-left" transform="translate(1149 270)" inkscape:label="false merge report left">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-210" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-211" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#2865b5" stroke-width="1.7" id="line-212" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#2865b5" stroke-width="1.7" id="line-213" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#2865b5" stroke-width="1.7" id="line-214" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#2865b5" stroke-width="1.7" id="line-215" />
+      </g>
+      <g id="false-merge-report-right" transform="translate(1206 289)" inkscape:label="false merge report right">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#ba4348" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-217" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#ba4348" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-218" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#ba4348" stroke-width="1.7" id="line-219" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#ba4348" stroke-width="1.7" id="line-220" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#ba4348" stroke-width="1.7" id="line-221" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#ba4348" stroke-width="1.7" id="line-222" />
+      </g>
+      <text x="1193" y="313" fill="#9b3034" font-size="32" font-weight="700" text-anchor="middle" id="text-223">×</text>
+      <text x="1158" y="347" fill="#6e767d" font-size="20" font-weight="400" text-anchor="start" id="text-224">...</text>
+      <g id="false-merge-callout" inkscape:label="false merge callout">
+        <path d="M 1253 282 H 1369 Q 1376 282 1376 289 V 330 Q 1376 337 1369 337 H 1253 Q 1246 337 1246 330 V 314 L 1238 306 L 1246 303 V 289 Q 1246 282 1253 282 Z" stroke="#ba4348" fill="white" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" id="path-226" />
+        <text x="1310" y="296" fill="#192026" font-size="18" font-weight="400" text-anchor="middle" id="text-227">Similar wording,</text>
+        <text x="1310" y="314" fill="#192026" font-size="18" font-weight="400" text-anchor="middle" font-style="italic" id="text-228">
+          <tspan id="text-228-restored-line-0" x="1310" dy="0">but</tspan>
+          <tspan id="text-228-restored-line-1" x="1310" dy="18">different defects.</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="false-split" inkscape:label="false split">
+      <rect x="1135" y="377" width="251" height="203" rx="10" fill="#fdfbf8" stroke="#e2ccb0" stroke-width="1.4" id="rect-230" />
+      <text x="1260" y="406" fill="#785126" font-size="27" font-weight="700" text-anchor="middle" id="text-231">False split</text>
+      <text x="1149" y="436" fill="#192026" font-size="20.4" font-weight="400" text-anchor="start" id="text-232">
+        <tspan x="1149" dy="0" id="tspan-233">Reports from the same defect</tspan>
+        <tspan x="1149" dy="24" id="tspan-234">are placed in different groups.</tspan>
+      </text>
+      <g id="false-split-report-left" transform="translate(1149 491)" inkscape:label="false split report left">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#28835c" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-236" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#28835c" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-237" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#28835c" stroke-width="1.7" id="line-238" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#28835c" stroke-width="1.7" id="line-239" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#28835c" stroke-width="1.7" id="line-240" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#28835c" stroke-width="1.7" id="line-241" />
+      </g>
+      <g id="false-split-report-right" transform="translate(1206 510)" inkscape:label="false split report right">
+        <path d="M 0 0 H 24.75 L 33 8.25 V 49 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-243" />
+        <path d="M 24.75 0 V 8.25 H 33" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-244" />
+        <line x1="5.9399999999999995" y1="15.68" x2="25.41" y2="15.68" stroke="#2865b5" stroke-width="1.7" id="line-245" />
+        <line x1="5.9399999999999995" y1="22.295" x2="25.41" y2="22.295" stroke="#2865b5" stroke-width="1.7" id="line-246" />
+        <line x1="5.9399999999999995" y1="28.910000000000004" x2="25.41" y2="28.910000000000004" stroke="#2865b5" stroke-width="1.7" id="line-247" />
+        <line x1="5.9399999999999995" y1="35.525000000000006" x2="25.41" y2="35.525000000000006" stroke="#2865b5" stroke-width="1.7" id="line-248" />
+      </g>
+      <text x="1193" y="534" fill="#9b3034" font-size="32" font-weight="700" text-anchor="middle" id="text-249">×</text>
+      <text x="1158" y="568" fill="#6e767d" font-size="20" font-weight="400" text-anchor="start" id="text-250">...</text>
+      <g id="false-split-callout" inkscape:label="false split callout">
+        <path d="M 1253 503 H 1369 Q 1376 503 1376 510 V 551 Q 1376 558 1369 558 H 1253 Q 1246 558 1246 551 V 535 L 1238 527 L 1246 524 V 510 Q 1246 503 1253 503 Z" stroke="#ca8b37" fill="white" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" id="path-252" />
+        <text x="1310" y="517" fill="#192026" font-size="18" font-weight="400" text-anchor="middle" id="text-253">Different wording,</text>
+        <text x="1310" y="535" fill="#192026" font-size="18" font-weight="400" text-anchor="middle" font-style="italic" id="text-254">
+          <tspan id="text-254-restored-line-0" x="1310" dy="0">but</tspan>
+          <tspan id="text-254-restored-line-1" x="1310" dy="18">the same defect.</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <g id="panel-3-feedback-refinement" transform="translate(0 -37)" inkscape:label="panel 3 feedback refinement" inkscape:groupmode="layer">
+    <rect x="1418" y="39" width="625" height="600" rx="7" fill="white" stroke="#2865b5" stroke-width="1.7" id="rect-256" />
+    <line x1="1418" y1="103" x2="2043" y2="103" stroke="#2865b5" stroke-width="1.7" id="line-257" />
+    <circle cx="1454" cy="72" r="23" fill="#245fae" id="circle-258" />
+    <text x="1454" y="82" fill="white" font-size="29" font-weight="400" text-anchor="middle" id="text-259">3</text>
+    <text x="1496" y="81" fill="#192026" font-size="30" font-weight="700" text-anchor="start" id="text-260">Iterative verification and refinement (FAVR)</text>
+    <g id="outer-cycle-arrows" inkscape:label="outer cycle arrows">
+      <g id="updated-to-select" inkscape:label="updated to select">
+        <path d="M 1496 227 C 1510 192 1533 174 1569 166" stroke="#2865b5" fill="none" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round" id="path-263" />
+        <polygon points="1563,157 1583,163 1568,177" fill="#2865b5" id="polygon-264" />
+      </g>
+      <g id="select-to-verify" inkscape:label="select to verify">
+        <path d="M 1904 162 C 1945 174 1957 198 1963 220" stroke="#2865b5" fill="none" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round" id="path-266" />
+        <polygon points="1954,215 1967,231 1974,208" fill="#2865b5" id="polygon-267" />
+      </g>
+      <g id="verify-to-refine" inkscape:label="verify to refine">
+        <path d="M 1996 458 C 1993 492 1975 516 1952 531" stroke="#2865b5" fill="none" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round" id="path-269" />
+        <polygon points="1952,518 1943,537 1965,534" fill="#2865b5" id="polygon-270" />
+      </g>
+      <g id="refine-to-updated" inkscape:label="refine to updated">
+        <path d="M 1557 547 C 1523 538 1498 516 1498 486" stroke="#2865b5" fill="none" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round" id="path-272" />
+        <polygon points="1488,492 1495,473 1507,491" fill="#2865b5" id="polygon-273" />
+      </g>
+    </g>
+    <g id="step-1-select" inkscape:label="step 1 select">
+      <rect x="1596" y="114" width="299" height="97" rx="11" fill="white" stroke="#2865b5" stroke-width="1.6" id="rect-275" />
+      <text x="1745" y="142" fill="#123e78" font-size="25" font-weight="700" text-anchor="middle" id="text-276">1. Select pairs to verify</text>
+      <text x="1745" y="170" fill="#192026" font-size="21" font-weight="400" text-anchor="middle" id="text-277">
+        <tspan x="1745" dy="0" id="tspan-278">Find pairs whose estimated relation</tspan>
+        <tspan x="1745" dy="24" id="tspan-279">conflicts with the current grouping.</tspan>
+      </text>
+    </g>
+    <g id="step-4-updated" inkscape:label="step 4 updated">
+      <rect x="1433" y="239" width="206" height="223" rx="10" fill="white" stroke="#64a4d2" stroke-width="1.5" id="rect-281" />
+      <text x="1447" y="266" fill="#123e78" font-size="22" font-weight="700" text-anchor="start" id="text-282">4. Updated grouping</text>
+      <text x="1447" y="290" fill="#123e78" font-size="17.7" font-weight="700" text-anchor="start" id="text-283">changes the query context</text>
+      <text x="1447" y="319" fill="#192026" font-size="22" font-weight="400" text-anchor="start" id="text-284">
+        <tspan x="1447" dy="0" id="tspan-285">The revised partition</tspan>
+        <tspan x="1447" dy="24" id="tspan-286">reveals new potential</tspan>
+        <tspan x="1447" dy="24" id="tspan-287">pairs to verify.</tspan>
+      </text>
+      <ellipse cx="1482" cy="418" rx="34" ry="34" fill="none" stroke="#2865b5" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-288" />
+      <g id="updated-blue-reports" inkscape:label="updated blue reports">
+        <g id="report-289" transform="translate(1469 400)" inkscape:label="report 289">
+          <path d="M 0 0 H 15.75 L 21 5.25 V 30 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-291" />
+          <path d="M 15.75 0 V 5.25 H 21" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-292" />
+          <line x1="3.78" y1="9.6" x2="16.17" y2="9.6" stroke="#2865b5" stroke-width="1.7" id="line-293" />
+          <line x1="3.78" y1="13.65" x2="16.17" y2="13.65" stroke="#2865b5" stroke-width="1.7" id="line-294" />
+          <line x1="3.78" y1="17.700000000000003" x2="16.17" y2="17.700000000000003" stroke="#2865b5" stroke-width="1.7" id="line-295" />
+          <line x1="3.78" y1="21.750000000000004" x2="16.17" y2="21.750000000000004" stroke="#2865b5" stroke-width="1.7" id="line-296" />
+        </g>
+        <g id="report-296" transform="translate(1465 403)" inkscape:label="report 296">
+          <path d="M 0 0 H 15.75 L 21 5.25 V 30 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-298" />
+          <path d="M 15.75 0 V 5.25 H 21" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-299" />
+          <line x1="3.78" y1="9.6" x2="16.17" y2="9.6" stroke="#2865b5" stroke-width="1.7" id="line-300" />
+          <line x1="3.78" y1="13.65" x2="16.17" y2="13.65" stroke="#2865b5" stroke-width="1.7" id="line-301" />
+          <line x1="3.78" y1="17.700000000000003" x2="16.17" y2="17.700000000000003" stroke="#2865b5" stroke-width="1.7" id="line-302" />
+          <line x1="3.78" y1="21.750000000000004" x2="16.17" y2="21.750000000000004" stroke="#2865b5" stroke-width="1.7" id="line-303" />
+        </g>
+      </g>
+      <ellipse cx="1598" cy="418" rx="34" ry="34" fill="none" stroke="#ba4348" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-304" />
+      <g id="updated-red-reports" inkscape:label="updated red reports">
+        <g id="report-305" transform="translate(1585 402)" inkscape:label="report 305">
+          <path d="M 0 0 H 15.75 L 21 5.25 V 30 H 0 Z" stroke="#ba4348" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-307" />
+          <path d="M 15.75 0 V 5.25 H 21" stroke="#ba4348" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-308" />
+          <line x1="3.78" y1="9.6" x2="16.17" y2="9.6" stroke="#ba4348" stroke-width="1.7" id="line-309" />
+          <line x1="3.78" y1="13.65" x2="16.17" y2="13.65" stroke="#ba4348" stroke-width="1.7" id="line-310" />
+          <line x1="3.78" y1="17.700000000000003" x2="16.17" y2="17.700000000000003" stroke="#ba4348" stroke-width="1.7" id="line-311" />
+          <line x1="3.78" y1="21.750000000000004" x2="16.17" y2="21.750000000000004" stroke="#ba4348" stroke-width="1.7" id="line-312" />
+        </g>
+        <g id="report-312" transform="translate(1581 405)" inkscape:label="report 312">
+          <path d="M 0 0 H 15.75 L 21 5.25 V 30 H 0 Z" stroke="#ba4348" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-314" />
+          <path d="M 15.75 0 V 5.25 H 21" stroke="#ba4348" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-315" />
+          <line x1="3.78" y1="9.6" x2="16.17" y2="9.6" stroke="#ba4348" stroke-width="1.7" id="line-316" />
+          <line x1="3.78" y1="13.65" x2="16.17" y2="13.65" stroke="#ba4348" stroke-width="1.7" id="line-317" />
+          <line x1="3.78" y1="17.700000000000003" x2="16.17" y2="17.700000000000003" stroke="#ba4348" stroke-width="1.7" id="line-318" />
+          <line x1="3.78" y1="21.750000000000004" x2="16.17" y2="21.750000000000004" stroke="#ba4348" stroke-width="1.7" id="line-319" />
+        </g>
+      </g>
+      <g id="updated-query-arrow" inkscape:label="updated query arrow">
+        <path d="M 1498 390 C 1520 379 1544 386 1557 398" stroke="#2865b5" fill="none" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round" id="path-321" />
+        <polygon points="1547,397 1561,405 1558,389" fill="#2865b5" id="polygon-322" />
+      </g>
+    </g>
+    <g id="step-2-verify" inkscape:label="step 2 verify">
+      <rect x="1848" y="239" width="184" height="208" rx="10" fill="white" stroke="#2865b5" stroke-width="1.6" id="rect-324" />
+      <text x="1940" y="270" fill="#123e78" font-size="25" font-weight="700" text-anchor="middle" id="text-325">2. Verify with LLM</text>
+      <text x="1940" y="298" fill="#192026" font-size="19.5" font-weight="400" text-anchor="middle" id="text-326">
+        <tspan id="judgment-restored-line-0" x="1940" dy="0">Obtain direct judgment</tspan>
+        <tspan id="judgment-restored-line-1" x="1940" dy="24">SAME or DIFFERENT</tspan>
+        <tspan id="judgment-restored-line-2" x="1940" dy="24">(with possible noise).</tspan>
+      </text>
+      <g id="robot-icon" transform="translate(1901 356) scale(0.95 0.9021739130434783)" inkscape:label="robot icon">
+        <g id="robot" stroke="#14364d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path id="robot-antenna-stem" d="M40 25 V14" fill="none" />
+          <circle id="robot-antenna-bulb" cx="40" cy="9" r="4.5" fill="#91d6df" />
+          <rect id="robot-left-ear" x="9" y="38" width="9" height="22" rx="3" fill="#9cdbdf" />
+          <rect id="robot-right-ear" x="62" y="38" width="9" height="22" rx="3" fill="#9cdbdf" />
+          <path id="robot-neck" fill="#56acb9" d="M29 68 H51 V75 H29 Z" />
+          <path id="robot-shoulders" fill="#e8f5f5" d="M11 87 C15 77 24 74 40 74 C57 74 65 77 69 87 Z" />
+          <path id="robot-shirt-lines" fill="none" d="M21 77 L25 87 M58 77 L54 87" />
+          <rect id="robot-head" x="15" y="24" width="50" height="46" rx="11" fill="#e7f4f3" />
+          <rect id="robot-head-inner-border" x="19" y="28" width="42" height="38" rx="8" fill="none" stroke="#ffffff" stroke-width="1.8" />
+          <rect id="robot-screen" x="23" y="33" width="34" height="27" rx="6" fill="#528ea7" />
+          <path id="robot-screen-highlight" stroke="none" fill="#619fb4" d="M29 35 H50 C53 35 55 37 55 40 V51 C53 54 43 56 31 54 C27 53 25 51 25 47 V40 C25 37 26 35 29 35 Z" />
+          <ellipse id="robot-eye-left" cx="31" cy="45" rx="3" ry="4" fill="#fbffff" stroke="none" />
+          <ellipse id="robot-eye-right" cx="49" cy="45" rx="3" ry="4" fill="#fbffff" stroke="none" />
+          <path id="robot-smile" d="M36 54 Q40 57 44 54" fill="none" stroke="#fbffff" stroke-width="2.2" />
+        </g>
+      </g>
+    </g>
+    <g id="central-feedback-cycle" inkscape:label="central feedback cycle">
+      <path d="M 1654 329 C 1671 245 1792 231 1830 316" stroke="#bdd9ea" fill="none" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" id="path-331" />
+      <polygon points="1808,290 1826,285 1819,307" fill="#66a7c7" id="polygon-332" />
+      <path d="M 1830 389 C 1801 463 1699 466 1664 395" stroke="#bdd9ea" fill="none" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" id="path-333" />
+      <polygon points="1678,418 1660,413 1667,437" fill="#66a7c7" id="polygon-334" />
+      <text x="1748" y="319" fill="#123e78" font-size="23" font-weight="700" text-anchor="middle" id="text-335">
+        <tspan x="1748" dy="0" id="tspan-336">Verification</tspan>
+        <tspan x="1748" dy="25" id="tspan-337">guides refinement,</tspan>
+        <tspan x="1748" dy="25" id="tspan-338">refinement guides</tspan>
+        <tspan x="1748" dy="25" id="tspan-339">next verification.</tspan>
+      </text>
+    </g>
+    <g id="step-3-refine" inkscape:label="step 3 refine">
+      <rect x="1567" y="482" width="365" height="133" rx="10" fill="white" stroke="#4d92c6" stroke-width="1.5" id="rect-341" />
+      <text x="1582" y="512" fill="#123e78" font-size="25" font-weight="700" text-anchor="start" id="text-342">3. Refine the partition</text>
+      <text x="1582" y="539" fill="#192026" font-size="19.7" font-weight="400" text-anchor="start" id="text-343">
+        <tspan x="1582" dy="0" id="tspan-344">Refine using accumulated</tspan>
+        <tspan x="1582" dy="24" id="tspan-345">direct judgments</tspan>
+        <tspan x="1582" dy="24" id="tspan-346">(correlation clustering).</tspan>
+      </text>
+      <g id="refined-blue-group" inkscape:label="refined blue group">
+        <ellipse cx="1836" cy="516" rx="32" ry="27" fill="none" stroke="#2865b5" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-348" />
+        <g id="report-348" transform="translate(1826 500)" inkscape:label="report 348">
+          <path d="M 0 0 H 15.0 L 20 5.0 V 31 H 0 Z" stroke="#2865b5" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-350" />
+          <path d="M 15.0 0 V 5.0 H 20" stroke="#2865b5" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-351" />
+          <line x1="3.5999999999999996" y1="9.92" x2="15.4" y2="9.92" stroke="#2865b5" stroke-width="1.7" id="line-352" />
+          <line x1="3.5999999999999996" y1="14.105" x2="15.4" y2="14.105" stroke="#2865b5" stroke-width="1.7" id="line-353" />
+          <line x1="3.5999999999999996" y1="18.290000000000003" x2="15.4" y2="18.290000000000003" stroke="#2865b5" stroke-width="1.7" id="line-354" />
+          <line x1="3.5999999999999996" y1="22.475" x2="15.4" y2="22.475" stroke="#2865b5" stroke-width="1.7" id="line-355" />
+        </g>
+      </g>
+      <g id="refined-orange-group" inkscape:label="refined orange group">
+        <ellipse cx="1897" cy="541" rx="32" ry="27" fill="none" stroke="#ca8b37" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-357" />
+        <g id="report-stack-357" inkscape:label="report stack 357">
+          <g id="report-358" transform="translate(1886 525)" inkscape:label="report 358">
+            <path d="M 0 0 H 14.25 L 19 4.75 V 27 H 0 Z" stroke="#ca8b37" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-360" />
+            <path d="M 14.25 0 V 4.75 H 19" stroke="#ca8b37" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-361" />
+            <line x1="3.42" y1="8.64" x2="14.63" y2="8.64" stroke="#ca8b37" stroke-width="1.7" id="line-362" />
+            <line x1="3.42" y1="12.285" x2="14.63" y2="12.285" stroke="#ca8b37" stroke-width="1.7" id="line-363" />
+            <line x1="3.42" y1="15.930000000000001" x2="14.63" y2="15.930000000000001" stroke="#ca8b37" stroke-width="1.7" id="line-364" />
+            <line x1="3.42" y1="19.575000000000003" x2="14.63" y2="19.575000000000003" stroke="#ca8b37" stroke-width="1.7" id="line-365" />
+          </g>
+          <g id="report-365" transform="translate(1882 528)" inkscape:label="report 365">
+            <path d="M 0 0 H 14.25 L 19 4.75 V 27 H 0 Z" stroke="#ca8b37" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-367" />
+            <path d="M 14.25 0 V 4.75 H 19" stroke="#ca8b37" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-368" />
+            <line x1="3.42" y1="8.64" x2="14.63" y2="8.64" stroke="#ca8b37" stroke-width="1.7" id="line-369" />
+            <line x1="3.42" y1="12.285" x2="14.63" y2="12.285" stroke="#ca8b37" stroke-width="1.7" id="line-370" />
+            <line x1="3.42" y1="15.930000000000001" x2="14.63" y2="15.930000000000001" stroke="#ca8b37" stroke-width="1.7" id="line-371" />
+            <line x1="3.42" y1="19.575000000000003" x2="14.63" y2="19.575000000000003" stroke="#ca8b37" stroke-width="1.7" id="line-372" />
+          </g>
+        </g>
+      </g>
+      <g id="refined-green-group" inkscape:label="refined green group">
+        <ellipse cx="1836" cy="578" rx="32" ry="27" fill="none" stroke="#28835c" stroke-width="1.5" stroke-dasharray="6 5" id="ellipse-374" />
+        <g id="report-stack-374" inkscape:label="report stack 374">
+          <g id="report-375" transform="translate(1825 562)" inkscape:label="report 375">
+            <path d="M 0 0 H 14.25 L 19 4.75 V 27 H 0 Z" stroke="#28835c" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-377" />
+            <path d="M 14.25 0 V 4.75 H 19" stroke="#28835c" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-378" />
+            <line x1="3.42" y1="8.64" x2="14.63" y2="8.64" stroke="#28835c" stroke-width="1.7" id="line-379" />
+            <line x1="3.42" y1="12.285" x2="14.63" y2="12.285" stroke="#28835c" stroke-width="1.7" id="line-380" />
+            <line x1="3.42" y1="15.930000000000001" x2="14.63" y2="15.930000000000001" stroke="#28835c" stroke-width="1.7" id="line-381" />
+            <line x1="3.42" y1="19.575000000000003" x2="14.63" y2="19.575000000000003" stroke="#28835c" stroke-width="1.7" id="line-382" />
+          </g>
+          <g id="report-382" transform="translate(1821 565)" inkscape:label="report 382">
+            <path d="M 0 0 H 14.25 L 19 4.75 V 27 H 0 Z" stroke="#28835c" fill="white" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path-384" />
+            <path d="M 14.25 0 V 4.75 H 19" stroke="#28835c" fill="none" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" id="path-385" />
+            <line x1="3.42" y1="8.64" x2="14.63" y2="8.64" stroke="#28835c" stroke-width="1.7" id="line-386" />
+            <line x1="3.42" y1="12.285" x2="14.63" y2="12.285" stroke="#28835c" stroke-width="1.7" id="line-387" />
+            <line x1="3.42" y1="15.930000000000001" x2="14.63" y2="15.930000000000001" stroke="#28835c" stroke-width="1.7" id="line-388" />
+            <line x1="3.42" y1="19.575000000000003" x2="14.63" y2="19.575000000000003" stroke="#28835c" stroke-width="1.7" id="line-389" />
+          </g>
+        </g>
+      </g>
+      <text x="1858" y="555" fill="#ba4348" font-size="25" font-weight="700" text-anchor="middle" id="text-390">×</text>
+    </g>
+  </g>
+</svg>

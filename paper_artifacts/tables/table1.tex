@@ -1,0 +1,33 @@
+\begin{table}[!htbp]
+  \centering
+  \caption{Report collections and reference partitions.}
+  \label{tab:datasets}
+  \begin{minipage}{0.90\linewidth}
+  \centering
+  \begingroup
+  \fontsize{8.5}{9.6}\selectfont
+  \setlength{\tabcolsep}{4pt}
+  \renewcommand{\arraystretch}{1.0}
+  \setlength{\heavyrulewidth}{0.7pt}
+  \setlength{\lightrulewidth}{0.35pt}
+  \setlength{\aboverulesep}{1.4pt}
+  \setlength{\belowrulesep}{1.8pt}
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lS[table-format=3]S[table-format=3]S[table-format=2.2]S[table-format=4]S[table-format=1.4]@{}}
+    \toprule
+    \textbf{Dataset} & {\textbf{Reports}}
+      & {\shortstack{\textbf{Reference}\\\textbf{groups}}}
+      & {\shortstack{\textbf{Singleton}\\\textbf{reports (\%)}}}
+      & {\shortstack{\textbf{Same-defect}\\\textbf{pairs}}}
+      & {\shortstack{\textbf{Pair share}\\\textbf{(\%)}}} \\
+    \midrule
+    JAYME   & 722 & 243 & 19.53 & 3,948 & 1.5168 \\
+    IELTS   & 335 & 162 & 25.07 &   535 & 0.9563 \\
+    HUJIANG & 268 & 176 & 46.64 &   262 & 0.7323 \\
+    \textbf{HUAWEI} & 242 & 200 & \bfseries 69.42 & \bfseries 58 & \bfseries 0.1989 \\
+    \bottomrule
+  \end{tabular*}
+  \endgroup
+  \par\vspace{2pt}
+  {\fontsize{8}{9.2}\selectfont\raggedright Singleton shares use all reports; pair shares use all unordered report pairs. Bold entries highlight the singleton-rich HUAWEI setting.\par}
+  \end{minipage}
+\end{table}

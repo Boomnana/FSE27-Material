@@ -1,0 +1,23 @@
+{
+  "schema": "favr-reference-manifest/1",
+  "reference_id": "FULL_REFERENCE_20260928",
+  "status": "Author-supplied complete reference used for offline evaluation; no independent semantic reannotation record supplied.",
+  "datasets": {
+    "jayme": {
+      "reports": 722,
+      "groups": 243
+    },
+    "ielts": {
+      "reports": 335,
+      "groups": 162
+    },
+    "hujiang": {
+      "reports": 268,
+      "groups": 176
+    },
+    "huawei": {
+      "reports": 242,
+      "groups": 200
+    }
+  }
+}

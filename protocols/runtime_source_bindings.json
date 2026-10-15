@@ -1,0 +1,56 @@
+{
+  "qwen35": {
+    "included_modules": [
+      "__init__.py",
+      "acquisition.py",
+      "data.py",
+      "decoder.py",
+      "evidence.py",
+      "features.py",
+      "initialization.py",
+      "metrics.py",
+      "probing.py",
+      "provider.py",
+      "runner.py",
+      "selector.py",
+      "shared_oracle.py",
+      "silra_transport_v2.py",
+      "study_controls.py",
+      "surrogate.py",
+      "tracing.py",
+      "warmup.py"
+    ],
+    "excluded_offline_diagnostic_modules": [
+      "oracle_core.py",
+      "oracle_runner.py"
+    ],
+    "description": "Archived transport/runtime implementation family; the job model field identifies the backend. See code_provenance.json for release adaptations."
+  },
+  "deepseek_v4_flash": {
+    "included_modules": [
+      "__init__.py",
+      "acquisition.py",
+      "data.py",
+      "decoder.py",
+      "evidence.py",
+      "features.py",
+      "initialization.py",
+      "metrics.py",
+      "probing.py",
+      "provider.py",
+      "runner.py",
+      "selector.py",
+      "shared_oracle.py",
+      "silra_transport_v2.py",
+      "study_controls.py",
+      "surrogate.py",
+      "tracing.py",
+      "warmup.py"
+    ],
+    "excluded_offline_diagnostic_modules": [
+      "oracle_core.py",
+      "oracle_runner.py"
+    ],
+    "description": "Archived transport/runtime implementation family; the job model field identifies the backend. See code_provenance.json for release adaptations."
+  }
+}

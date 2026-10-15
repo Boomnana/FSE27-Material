@@ -1,0 +1,98 @@
+[
+  {
+    "dataset": "jayme",
+    "start": "LLM",
+    "path": "data/initializations/jayme/I_llm/start_state.json",
+    "source_id": "source_000274",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_001767"
+  },
+  {
+    "dataset": "jayme",
+    "start": "HC",
+    "path": "data/initializations/jayme/I_hc/start_state.json",
+    "source_id": "source_000174",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_003163"
+  },
+  {
+    "dataset": "ielts",
+    "start": "LLM",
+    "path": "data/initializations/ielts/I_llm/start_state.json",
+    "source_id": "source_000259",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_001958"
+  },
+  {
+    "dataset": "ielts",
+    "start": "HC",
+    "path": "data/initializations/ielts/I_hc/start_state.json",
+    "source_id": "source_000113",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_003054"
+  },
+  {
+    "dataset": "hujiang",
+    "start": "LLM",
+    "path": "data/initializations/hujiang/I_llm/start_state.json",
+    "source_id": "source_000007",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_004695"
+  },
+  {
+    "dataset": "hujiang",
+    "start": "HC",
+    "path": "data/initializations/hujiang/I_hc/start_state.json",
+    "source_id": "source_000295",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_001798"
+  },
+  {
+    "dataset": "huawei",
+    "start": "LLM",
+    "path": "data/initializations/huawei/I_llm/start_state.json",
+    "source_id": "source_000379",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_003799"
+  },
+  {
+    "dataset": "huawei",
+    "start": "HC",
+    "path": "data/initializations/huawei/I_hc/start_state.json",
+    "source_id": "source_000136",
+    "changed_fields": [
+      "source locators and record identifiers",
+      "redundant integrity metadata"
+    ],
+    "change": "Release metadata normalized. Report text and order, numeric preparation settings, vector values and partition membership are preserved.",
+    "partition_id": "record_003022"
+  }
+]

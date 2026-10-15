@@ -1,0 +1,40 @@
+{
+  "controls": {
+    "total": 240,
+    "available": 240,
+    "missing": 0,
+    "by_group": {
+      "AQCC_CONST": {
+        "total": 48,
+        "available": 48,
+        "missing": 0
+      },
+      "AQCC_RANDOM": {
+        "total": 48,
+        "available": 48,
+        "missing": 0
+      },
+      "AQCC_TEXT": {
+        "total": 48,
+        "available": 48,
+        "missing": 0
+      },
+      "FROZEN_LR": {
+        "total": 48,
+        "available": 48,
+        "missing": 0
+      },
+      "FROZEN_PLAN": {
+        "total": 48,
+        "available": 48,
+        "missing": 0
+      }
+    },
+    "missing_records": []
+  },
+  "external_baselines": {
+    "A3S": 16,
+    "LLMCluster-tuned": 4,
+    "TERFUR-desc-semantic-seeded-v2": 4
+  }
+}

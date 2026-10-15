@@ -1,0 +1,1352 @@
+[
+  {
+    "run_id": "huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+    "dataset": "huawei",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 98,
+    "q_5pct": 1446,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1446,
+      "source_id": "source_000345",
+      "statuses": {
+        "SUCCESS": 1429,
+        "FAILED_PROTOCOL": 16,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000040",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "huawei",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 101,
+    "q_5pct": 1448,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1448,
+      "source_id": "source_000162",
+      "statuses": {
+        "SUCCESS": 1429,
+        "FAILED_PROTOCOL": 18,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000291",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+    "dataset": "huawei",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 98,
+    "q_5pct": 1448,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1448,
+      "source_id": "source_000251",
+      "statuses": {
+        "SUCCESS": 1430,
+        "FAILED_PROTOCOL": 18
+      }
+    },
+    "terminal": {
+      "source_id": "source_000151",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "huawei",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 101,
+    "q_5pct": 1448,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1448,
+      "source_id": "source_000015",
+      "statuses": {
+        "SUCCESS": 1426,
+        "FAILED_PROTOCOL": 21,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000256",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+    "dataset": "huawei",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 98,
+    "q_5pct": 1446,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1446,
+      "source_id": "source_000244",
+      "statuses": {
+        "FAILED_PROTOCOL": 15,
+        "SUCCESS": 1431
+      }
+    },
+    "terminal": {
+      "source_id": "source_000108",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "huawei",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 101,
+    "q_5pct": 1453,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/huawei__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1453,
+      "source_id": "source_000359",
+      "statuses": {
+        "SUCCESS": 1432,
+        "FAILED_PROTOCOL": 20,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000049",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__qwen3.5-flash__R1__I_llm__AQCC_LR",
+    "dataset": "huawei",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 98,
+    "q_5pct": 1448,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__qwen3.5-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/huawei__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1448,
+      "source_id": "source_000325",
+      "statuses": {
+        "SUCCESS": 1448
+      }
+    },
+    "terminal": {
+      "source_id": "source_000104",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "huawei",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 100,
+    "q_5pct": 1447,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/huawei__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1447,
+      "source_id": "source_000105",
+      "statuses": {
+        "SUCCESS": 1447
+      }
+    },
+    "terminal": {
+      "source_id": "source_000355",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__qwen3.5-flash__R2__I_llm__AQCC_LR",
+    "dataset": "huawei",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 98,
+    "q_5pct": 1451,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__qwen3.5-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/huawei__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1451,
+      "source_id": "source_000150",
+      "statuses": {
+        "SUCCESS": 1451
+      }
+    },
+    "terminal": {
+      "source_id": "source_000350",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "huawei",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 100,
+    "q_5pct": 1449,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/huawei__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1449,
+      "source_id": "source_000020",
+      "statuses": {
+        "SUCCESS": 1449
+      }
+    },
+    "terminal": {
+      "source_id": "source_000399",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__qwen3.5-flash__R3__I_llm__AQCC_LR",
+    "dataset": "huawei",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 98,
+    "q_5pct": 1451,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__qwen3.5-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/huawei__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1451,
+      "source_id": "source_000337",
+      "statuses": {
+        "SUCCESS": 1451
+      }
+    },
+    "terminal": {
+      "source_id": "source_000260",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "huawei",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 101,
+    "q_5pct": 1451,
+    "q_10pct": 2917,
+    "micro_rounds": "runs/main/micro_rounds/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/huawei__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1451,
+      "source_id": "source_000340",
+      "statuses": {
+        "SUCCESS": 1451
+      }
+    },
+    "terminal": {
+      "source_id": "source_000134",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 120,
+    "q_5pct": 1786,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1786,
+      "source_id": "source_000304",
+      "statuses": {
+        "FAILED_PROTOCOL": 60,
+        "SUCCESS": 1726
+      }
+    },
+    "terminal": {
+      "source_id": "source_000351",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 121,
+    "q_5pct": 1779,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1779,
+      "source_id": "source_000166",
+      "statuses": {
+        "SUCCESS": 1744,
+        "FAILED_PROTOCOL": 34,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000023",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 120,
+    "q_5pct": 1783,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1783,
+      "source_id": "source_000188",
+      "statuses": {
+        "FAILED_PROTOCOL": 48,
+        "SUCCESS": 1734,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000290",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 121,
+    "q_5pct": 1780,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1780,
+      "source_id": "source_000096",
+      "statuses": {
+        "SUCCESS": 1736,
+        "FAILED_PROTOCOL": 43,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000127",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 120,
+    "q_5pct": 1781,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1781,
+      "source_id": "source_000139",
+      "statuses": {
+        "SUCCESS": 1744,
+        "FAILED_PROTOCOL": 35,
+        "FAILED_TRANSPORT_UNCERTAIN": 2
+      }
+    },
+    "terminal": {
+      "source_id": "source_000051",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 121,
+    "q_5pct": 1778,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/hujiang__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1778,
+      "source_id": "source_000107",
+      "statuses": {
+        "SUCCESS": 1741,
+        "FAILED_PROTOCOL": 35,
+        "FAILED_TRANSPORT_UNCERTAIN": 2
+      }
+    },
+    "terminal": {
+      "source_id": "source_000234",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 119,
+    "q_5pct": 1777,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1777,
+      "source_id": "source_000019",
+      "statuses": {
+        "SUCCESS": 1777
+      }
+    },
+    "terminal": {
+      "source_id": "source_000303",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 121,
+    "q_5pct": 1784,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1784,
+      "source_id": "source_000302",
+      "statuses": {
+        "SUCCESS": 1784
+      }
+    },
+    "terminal": {
+      "source_id": "source_000130",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 119,
+    "q_5pct": 1777,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1777,
+      "source_id": "source_000306",
+      "statuses": {
+        "SUCCESS": 1777
+      }
+    },
+    "terminal": {
+      "source_id": "source_000278",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 121,
+    "q_5pct": 1778,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1778,
+      "source_id": "source_000050",
+      "statuses": {
+        "SUCCESS": 1778
+      }
+    },
+    "terminal": {
+      "source_id": "source_000014",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 119,
+    "q_5pct": 1774,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 1774,
+      "source_id": "source_000327",
+      "statuses": {
+        "SUCCESS": 1774
+      }
+    },
+    "terminal": {
+      "source_id": "source_000300",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "hujiang",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 121,
+    "q_5pct": 1779,
+    "q_10pct": 3578,
+    "micro_rounds": "runs/main/micro_rounds/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/hujiang__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 1779,
+      "source_id": "source_000114",
+      "statuses": {
+        "SUCCESS": 1779
+      }
+    },
+    "terminal": {
+      "source_id": "source_000378",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+    "dataset": "ielts",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 182,
+    "q_5pct": 2790,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 2790,
+      "source_id": "source_000292",
+      "statuses": {
+        "SUCCESS": 2702,
+        "FAILED_PROTOCOL": 85,
+        "FAILED_TRANSPORT_UNCERTAIN": 3
+      }
+    },
+    "terminal": {
+      "source_id": "source_000219",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "ielts",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 183,
+    "q_5pct": 2790,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 2790,
+      "source_id": "source_000322",
+      "statuses": {
+        "SUCCESS": 2702,
+        "FAILED_PROTOCOL": 85,
+        "FAILED_TRANSPORT_UNCERTAIN": 3
+      }
+    },
+    "terminal": {
+      "source_id": "source_000167",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+    "dataset": "ielts",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 182,
+    "q_5pct": 2790,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 2790,
+      "source_id": "source_000197",
+      "statuses": {
+        "SUCCESS": 2711,
+        "FAILED_PROTOCOL": 79
+      }
+    },
+    "terminal": {
+      "source_id": "source_000316",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "ielts",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 183,
+    "q_5pct": 2791,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 2791,
+      "source_id": "source_000021",
+      "statuses": {
+        "SUCCESS": 2702,
+        "FAILED_PROTOCOL": 88,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000267",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+    "dataset": "ielts",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 181,
+    "q_5pct": 2789,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 2789,
+      "source_id": "source_000186",
+      "statuses": {
+        "SUCCESS": 2703,
+        "FAILED_PROTOCOL": 86
+      }
+    },
+    "terminal": {
+      "source_id": "source_000004",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "ielts",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 183,
+    "q_5pct": 2792,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/ielts__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 2792,
+      "source_id": "source_000354",
+      "statuses": {
+        "FAILED_PROTOCOL": 87,
+        "SUCCESS": 2705
+      }
+    },
+    "terminal": {
+      "source_id": "source_000200",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__qwen3.5-flash__R1__I_llm__AQCC_LR",
+    "dataset": "ielts",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 181,
+    "q_5pct": 2785,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__qwen3.5-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/ielts__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 2785,
+      "source_id": "source_000403",
+      "statuses": {
+        "SUCCESS": 2782,
+        "FAILED_PROTOCOL": 3
+      }
+    },
+    "terminal": {
+      "source_id": "source_000410",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "ielts",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 183,
+    "q_5pct": 2790,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/ielts__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 2790,
+      "source_id": "source_000202",
+      "statuses": {
+        "SUCCESS": 2787,
+        "FAILED_PROTOCOL": 3
+      }
+    },
+    "terminal": {
+      "source_id": "source_000367",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__qwen3.5-flash__R2__I_llm__AQCC_LR",
+    "dataset": "ielts",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 181,
+    "q_5pct": 2786,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__qwen3.5-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/ielts__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 2786,
+      "source_id": "source_000268",
+      "statuses": {
+        "SUCCESS": 2785,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000159",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "ielts",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 183,
+    "q_5pct": 2790,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/ielts__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 2790,
+      "source_id": "source_000233",
+      "statuses": {
+        "SUCCESS": 2789,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000222",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__qwen3.5-flash__R3__I_llm__AQCC_LR",
+    "dataset": "ielts",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 181,
+    "q_5pct": 2788,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__qwen3.5-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/ielts__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 2788,
+      "source_id": "source_000317",
+      "statuses": {
+        "SUCCESS": 2787,
+        "FAILED_PROTOCOL": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000383",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "ielts",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 183,
+    "q_5pct": 2791,
+    "q_10pct": 5595,
+    "micro_rounds": "runs/main/micro_rounds/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/ielts__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 2791,
+      "source_id": "source_000180",
+      "statuses": {
+        "SUCCESS": 2790,
+        "FAILED_PROTOCOL": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000333",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+    "dataset": "jayme",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 820,
+    "q_5pct": 13004,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 13004,
+      "source_id": "source_000075",
+      "statuses": {
+        "SUCCESS": 12997,
+        "FAILED_PROTOCOL": 6,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000326",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "jayme",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 821,
+    "q_5pct": 13012,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 13012,
+      "source_id": "source_000236",
+      "statuses": {
+        "SUCCESS": 13005,
+        "FAILED_TRANSPORT_UNCERTAIN": 1,
+        "FAILED_PROTOCOL": 6
+      }
+    },
+    "terminal": {
+      "source_id": "source_000109",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+    "dataset": "jayme",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 820,
+    "q_5pct": 13003,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 13003,
+      "source_id": "source_000394",
+      "statuses": {
+        "SUCCESS": 12998,
+        "FAILED_PROTOCOL": 5
+      }
+    },
+    "terminal": {
+      "source_id": "source_000205",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "jayme",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 821,
+    "q_5pct": 13010,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 13010,
+      "source_id": "source_000308",
+      "statuses": {
+        "SUCCESS": 13005,
+        "FAILED_PROTOCOL": 5
+      }
+    },
+    "terminal": {
+      "source_id": "source_000208",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+    "dataset": "jayme",
+    "model": "deepseek-v4-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 820,
+    "q_5pct": 13004,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 13004,
+      "source_id": "source_000266",
+      "statuses": {
+        "SUCCESS": 12999,
+        "FAILED_PROTOCOL": 5
+      }
+    },
+    "terminal": {
+      "source_id": "source_000054",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "jayme",
+    "model": "deepseek-v4-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 820,
+    "q_5pct": 13007,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/jayme__deepseek-v4-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 13007,
+      "source_id": "source_000053",
+      "statuses": {
+        "SUCCESS": 13002,
+        "FAILED_PROTOCOL": 5
+      }
+    },
+    "terminal": {
+      "source_id": "source_000279",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__qwen3.5-flash__R1__I_llm__AQCC_LR",
+    "dataset": "jayme",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 820,
+    "q_5pct": 13005,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__qwen3.5-flash__R1__I_llm__AQCC_LR",
+      "path": "runs/judgments/jayme__qwen3.5-flash__R1__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 13005,
+      "source_id": "source_000215",
+      "statuses": {
+        "SUCCESS": 12994,
+        "FAILED_PROTOCOL": 10,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000062",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+    "dataset": "jayme",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 1,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 821,
+    "q_5pct": 13010,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/jayme__qwen3.5-flash__R1__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 13010,
+      "source_id": "source_000254",
+      "statuses": {
+        "SUCCESS": 12999,
+        "FAILED_PROTOCOL": 10,
+        "FAILED_TRANSPORT_UNCERTAIN": 1
+      }
+    },
+    "terminal": {
+      "source_id": "source_000032",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__qwen3.5-flash__R2__I_llm__AQCC_LR",
+    "dataset": "jayme",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 819,
+    "q_5pct": 13001,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__qwen3.5-flash__R2__I_llm__AQCC_LR",
+      "path": "runs/judgments/jayme__qwen3.5-flash__R2__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 13001,
+      "source_id": "source_000338",
+      "statuses": {
+        "SUCCESS": 12996,
+        "FAILED_PROTOCOL": 3,
+        "FAILED_TRANSPORT_UNCERTAIN": 2
+      }
+    },
+    "terminal": {
+      "source_id": "source_000057",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+    "dataset": "jayme",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 2,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 821,
+    "q_5pct": 13007,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/jayme__qwen3.5-flash__R2__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 13007,
+      "source_id": "source_000384",
+      "statuses": {
+        "SUCCESS": 13002,
+        "FAILED_PROTOCOL": 3,
+        "FAILED_TRANSPORT_UNCERTAIN": 2
+      }
+    },
+    "terminal": {
+      "source_id": "source_000352",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__qwen3.5-flash__R3__I_llm__AQCC_LR",
+    "dataset": "jayme",
+    "model": "qwen3.5-flash",
+    "start": "LLM",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 821,
+    "q_5pct": 13008,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__qwen3.5-flash__R3__I_llm__AQCC_LR",
+      "path": "runs/judgments/jayme__qwen3.5-flash__R3__I_llm__AQCC_LR.jsonl.gz",
+      "rows": 13008,
+      "source_id": "source_000261",
+      "statuses": {
+        "SUCCESS": 13005,
+        "FAILED_PROTOCOL": 3
+      }
+    },
+    "terminal": {
+      "source_id": "source_000067",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  },
+  {
+    "run_id": "jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+    "dataset": "jayme",
+    "model": "qwen3.5-flash",
+    "start": "HC",
+    "repeat": 3,
+    "method": "FAVR",
+    "checkpoints": 14,
+    "micro_round_records": 821,
+    "q_5pct": 13000,
+    "q_10pct": 26029,
+    "micro_rounds": "runs/main/micro_rounds/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+    "judgments": {
+      "run_id": "jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR",
+      "path": "runs/judgments/jayme__qwen3.5-flash__R3__I_tfidf__AQCC_LR.jsonl.gz",
+      "rows": 13000,
+      "source_id": "source_000310",
+      "statuses": {
+        "SUCCESS": 12997,
+        "FAILED_PROTOCOL": 3
+      }
+    },
+    "terminal": {
+      "source_id": "source_000128",
+      "gold_accessed_online": false,
+      "execution_mode": "LIVE_SHARED_TWO_MODEL_20260910"
+    }
+  }
+]

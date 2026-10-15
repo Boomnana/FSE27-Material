@@ -1,0 +1,47 @@
+\begin{table}[!htbp]
+\centering
+\caption{Final partition quality.}
+\label{tab:rq1-baseline}
+\begin{minipage}{\linewidth}
+\centering
+\begingroup
+\fontsize{8.5}{9.2}\selectfont
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{0.96}
+\setlength{\heavyrulewidth}{0.7pt}
+\setlength{\lightrulewidth}{0.35pt}
+\setlength{\aboverulesep}{1.4pt}
+\setlength{\belowrulesep}{1.8pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllcc@{\hspace{7pt}}cc@{\hspace{7pt}}cc@{\hspace{7pt}}cc@{}}
+\toprule
+ &  &  & \multicolumn{2}{c}{\textbf{JAYME}} & \multicolumn{2}{c}{\textbf{IELTS}} & \multicolumn{2}{c}{\textbf{HUJIANG}} & \multicolumn{2}{c}{\textbf{HUAWEI}} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(l){10-11}
+\textbf{Backend} & \textbf{Start} & \textbf{Method} & \multicolumn{1}{c}{ARI} & \multicolumn{1}{c}{$B^3$-F1} & \multicolumn{1}{c}{ARI} & \multicolumn{1}{c}{$B^3$-F1} & \multicolumn{1}{c}{ARI} & \multicolumn{1}{c}{$B^3$-F1} & \multicolumn{1}{c}{ARI} & \multicolumn{1}{c}{$B^3$-F1} \\
+\midrule
+\multirow[t]{6}{*}{Qwen} & \multirow[t]{3}{*}{LLM} & A3S & 0.488 & 0.704 & 0.421 & 0.736 & 0.453 & 0.829 & 0.417 & 0.912 \\
+  &    &  \textbf{FAVR}  & \textbf{0.842} & \textbf{0.846} & \textbf{0.596} & \textbf{0.794} & \textbf{0.653} & \textbf{0.850} & \textbf{0.541} & \textbf{0.936} \\
+ & & \quad\textit{SD} & 0.006 & 0.002 & 0.007 & 0.001 & 0.038 & 0.005 & 0.077 & 0.007 \\
+\addlinespace[1.5pt]
+ & \multirow[t]{3}{*}{HC} & A3S & 0.557 & 0.715 & 0.451 & 0.757 & 0.465 & 0.833 & 0.329 & 0.901 \\
+  &    &  \textbf{FAVR}  & \textbf{0.841} & \textbf{0.844} & \textbf{0.620} & \textbf{0.798} & \textbf{0.583} & \textbf{0.840} & \textbf{0.435} & \textbf{0.929} \\
+ & & \quad\textit{SD} & 0.007 & 0.006 & 0.020 & 0.007 & 0.089 & 0.011 & 0.044 & 0.003 \\
+\midrule
+\multirow[t]{6}{*}{DeepSeek} & \multirow[t]{3}{*}{LLM} & A3S & 0.491 & 0.700 & 0.426 & 0.741 & 0.564 & 0.834 & 0.239 & 0.879 \\
+  &    &  \textbf{FAVR}  & \textbf{0.845} & \textbf{0.849} & \textbf{0.630} & \textbf{0.797} & \textbf{0.612} & \textbf{0.856} & \textbf{0.387} & \textbf{0.910} \\
+ & & \quad\textit{SD} & 0.005 & 0.000 & 0.033 & 0.010 & 0.031 & 0.006 & 0.055 & 0.008 \\
+\addlinespace[1.5pt]
+ & \multirow[t]{3}{*}{HC} & A3S & 0.510 & 0.696 & 0.490 & 0.755 & 0.393 & 0.823 & 0.214 & 0.877 \\
+  &    &  \textbf{FAVR}  & \textbf{0.845} & \textbf{0.848} & \textbf{0.629} & \textbf{0.797} & \textbf{0.563} & \textbf{0.853} & \textbf{0.307} & \textbf{0.902} \\
+ & & \quad\textit{SD} & 0.006 & 0.002 & 0.023 & 0.007 & 0.034 & 0.005 & 0.037 & 0.007 \\
+\midrule
+\multicolumn{11}{@{}l}{\textit{Reference-tuned pipelines (in-sample)}} \\
+\addlinespace[1pt]
+\multicolumn{3}{@{}l}{LLMCluster} & 0.647 & 0.686 & 0.517 & 0.743 & 0.426 & 0.798 & 0.281 & 0.907 \\
+\multicolumn{3}{@{}l}{TERFUR} & 0.474 & 0.533 & 0.358 & 0.681 & 0.319 & 0.804 & 0.275 & 0.897 \\
+\bottomrule
+\end{tabular*}
+\endgroup
+\par\vspace{2pt}
+{\fontsize{8}{9.2}\selectfont\raggedright FAVR: three-run means at $5\%$, with sample SD below. A3S: one run at the same budget ceiling; actual queries and resource use are unmatched. Reference-tuned pipelines: one partition per dataset. SDs below 0.0005 round to 0.000. Bold: higher A3S--FAVR score.\par}
+\end{minipage}
+\end{table}
